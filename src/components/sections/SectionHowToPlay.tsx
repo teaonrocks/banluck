@@ -11,7 +11,7 @@ import {
 
 export function SectionHowToPlay() {
   return (
-    <section id="how-to-play" className="border-b border-border py-16">
+    <section id="how-to-play" className="border-b border-border py-16 max-[900px]:py-10">
       <SectionHeader
         number="03"
         label="Gameplay"

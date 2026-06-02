@@ -17,7 +17,9 @@ export function SectionHeader({ number, label, title, intro }: SectionHeaderProp
         {title}
       </h2>
       {intro && (
-        <p className="mb-8 max-w-2xl text-[1.05rem] leading-relaxed">{intro}</p>
+        <p className="mb-8 max-w-2xl text-[1.05rem] leading-relaxed max-[900px]:mb-6 max-[900px]:text-base">
+          {intro}
+        </p>
       )}
     </>
   )

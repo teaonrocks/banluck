@@ -10,7 +10,7 @@ import {
 
 export function SectionHouseRules() {
   return (
-    <section id="house-rules" className="border-b border-border py-16">
+    <section id="house-rules" className="border-b border-border py-16 max-[900px]:py-10">
       <SectionHeader
         number="02"
         label="House rules"

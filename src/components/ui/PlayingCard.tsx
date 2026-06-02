@@ -12,7 +12,7 @@ interface PlayingCardProps {
 export function PlayingCard({ card, selected, interactive, onSelect }: PlayingCardProps) {
   const red = isRedSuit(card.suit)
   const className = cn(
-    'flex h-[100px] w-[72px] flex-col items-center justify-center gap-0.5 rounded-lg border border-border bg-card shadow-sm transition-all',
+    'flex h-[100px] w-[72px] flex-col items-center justify-center gap-0.5 rounded-lg border border-border bg-card shadow-sm transition-all max-[900px]:h-[76px] max-[900px]:w-[52px] max-[480px]:h-[68px] max-[480px]:w-[46px]',
     red ? 'text-destructive' : 'text-foreground',
     interactive && 'cursor-pointer hover:-translate-y-0.5 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/40',
     selected && 'ring-2 ring-foreground ring-offset-2',
@@ -20,8 +20,10 @@ export function PlayingCard({ card, selected, interactive, onSelect }: PlayingCa
 
   const content = (
     <>
-      <span className="font-serif text-xl font-semibold leading-none">{card.rank}</span>
-      <span className="text-lg leading-none" aria-hidden="true">
+      <span className="font-serif text-xl font-semibold leading-none max-[900px]:text-base max-[480px]:text-sm">
+        {card.rank}
+      </span>
+      <span className="text-lg leading-none max-[900px]:text-base max-[480px]:text-sm" aria-hidden="true">
         {SUIT_SYMBOL[card.suit]}
       </span>
     </>
@@ -56,7 +58,7 @@ export function HandDisplay({
   return (
     <div
       className={cn(
-        'flex cursor-pointer gap-2 rounded-[10px] border border-transparent p-3 transition-colors',
+        'flex cursor-pointer gap-2 rounded-[10px] border border-transparent p-3 transition-colors max-[900px]:gap-1.5 max-[900px]:p-2 max-[480px]:-mx-2 max-[480px]:overflow-x-auto max-[480px]:px-2',
         selected && 'border-border bg-accent',
         !selected && 'hover:border-border hover:bg-accent',
       )}

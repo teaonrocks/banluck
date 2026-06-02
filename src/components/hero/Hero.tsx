@@ -3,7 +3,7 @@ import { HeroArt } from './HeroArt'
 export function Hero() {
   return (
     <>
-      <header className="border-b border-border py-12 max-[900px]:py-8">
+      <header className="border-b border-border py-12 max-[900px]:py-6">
         <p className="mb-5 text-[0.7rem] tracking-[0.14em] uppercase text-destructive">
           BANLUCK GUIDE · 視覺指南
         </p>
@@ -26,17 +26,17 @@ export function Hero() {
           <HeroArt />
         </div>
 
-        <div className="mt-8 flex flex-wrap gap-10">
+        <div className="mt-8 flex flex-wrap gap-x-8 gap-y-4 max-[900px]:mt-6 max-[900px]:gap-x-6">
           <div>
-            <div className="mb-1 font-serif text-3xl leading-none">52</div>
+            <div className="mb-1 font-serif text-3xl leading-none max-[900px]:text-2xl">52</div>
             <div className="max-w-40 text-sm text-muted-foreground">cards in one deck</div>
           </div>
           <div>
-            <div className="mb-1 font-serif text-3xl leading-none">5</div>
+            <div className="mb-1 font-serif text-3xl leading-none max-[900px]:text-2xl">5</div>
             <div className="max-w-40 text-sm text-muted-foreground">special winning hands</div>
           </div>
           <div>
-            <div className="mb-1 font-serif text-3xl leading-none">2×–7×</div>
+            <div className="mb-1 font-serif text-3xl leading-none max-[900px]:text-2xl">2×–7×</div>
             <div className="max-w-40 text-sm text-muted-foreground">payout range on specials</div>
           </div>
         </div>

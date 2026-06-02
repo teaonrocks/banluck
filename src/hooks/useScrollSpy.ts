@@ -4,6 +4,12 @@ function getSectionTop(el: HTMLElement): number {
   return el.getBoundingClientRect().top + window.scrollY
 }
 
+function getScrollOffset(defaultOffset: number): number {
+  if (!window.matchMedia('(max-width: 900px)').matches) return defaultOffset
+  const header = document.querySelector('[data-site-header]')
+  return header ? header.getBoundingClientRect().height + 16 : defaultOffset
+}
+
 export function useScrollSpy(sectionIds: string[], offset = 120) {
   const [activeId, setActiveId] = useState(sectionIds[0] ?? '')
 
@@ -15,7 +21,8 @@ export function useScrollSpy(sectionIds: string[], offset = 120) {
     if (elements.length === 0) return
 
     const update = () => {
-      const scrollPosition = window.scrollY + offset
+      const scrollOffset = getScrollOffset(offset)
+      const scrollPosition = window.scrollY + scrollOffset
       const atBottom =
         window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 48
 
@@ -45,7 +52,7 @@ export function useScrollSpy(sectionIds: string[], offset = 120) {
   const scrollTo = (id: string) => {
     const el = document.getElementById(id)
     if (!el) return
-    const top = getSectionTop(el) - offset + 1
+    const top = getSectionTop(el) - getScrollOffset(offset) + 1
     window.scrollTo({ top, behavior: 'smooth' })
   }
 

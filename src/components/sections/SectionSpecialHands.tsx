@@ -11,7 +11,7 @@ export function SectionSpecialHands() {
   const activeHand = SPECIAL_HANDS.find((h) => h.id === focusedId) ?? null
 
   return (
-    <section id="special-hands" className="border-b border-border py-16">
+    <section id="special-hands" className="border-b border-border py-16 max-[900px]:py-10">
       <SectionHeader
         number="01"
         label="Special hands"
@@ -19,8 +19,8 @@ export function SectionSpecialHands() {
         intro="Banluck uses a standard 52-card deck. Most hands are won by getting closer to 21 than the banker without busting — but five special hands pay extra (or cost extra if you bust on five cards)."
       />
 
-      <div className="mt-8 grid items-start gap-8 lg:grid-cols-[240px_1fr]">
-        <div className="space-y-3">
+      <div className="mt-8 grid items-start gap-8 max-[900px]:gap-6 lg:grid-cols-[240px_1fr]">
+        <div className="order-2 space-y-3 lg:order-1">
           {activeHand ? (
             <>
               <h3 className="font-serif text-xl leading-snug">{activeHand.name}</h3>
@@ -50,7 +50,7 @@ export function SectionSpecialHands() {
           )}
         </div>
 
-        <div className="flex flex-col gap-2">
+        <div className="order-1 flex flex-col gap-2 lg:order-2">
           {SPECIAL_HANDS.map((hand) => (
             <HandDisplay
               key={hand.id}

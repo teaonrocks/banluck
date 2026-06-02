@@ -47,7 +47,7 @@ export function SectionSimulation() {
   const bestPlayer = byPlayer.slice(0, 5)
 
   return (
-    <section id="simulation" className="border-b border-border py-16">
+    <section id="simulation" className="border-b border-border py-16 max-[900px]:py-10">
       <SectionHeader
         number="04"
         label="Simulation"
@@ -107,7 +107,7 @@ export function SectionSimulation() {
       <Collapsible open={explorerOpen} onOpenChange={setExplorerOpen}>
         <CollapsibleTrigger>Explore all configurations</CollapsibleTrigger>
         <CollapsibleContent className="pt-4">
-          <div className="mb-4 flex flex-wrap items-end gap-4">
+          <div className="mb-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             <div className="space-y-1.5">
               <Label htmlFor="filter-fifteen">15 run</Label>
               <Select
@@ -116,7 +116,7 @@ export function SectionSimulation() {
                   updateFilter('fifteenRun', v === 'all' ? '' : (v as FifteenRun))
                 }
               >
-                <SelectTrigger id="filter-fifteen">
+                <SelectTrigger id="filter-fifteen" className="w-full">
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>
@@ -135,7 +135,7 @@ export function SectionSimulation() {
                   updateFilter('minimum', v === 'all' ? '' : (Number(v) as Minimum))
                 }
               >
-                <SelectTrigger id="filter-minimum">
+                <SelectTrigger id="filter-minimum" className="w-full">
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>
@@ -157,7 +157,7 @@ export function SectionSimulation() {
                   )
                 }
               >
-                <SelectTrigger id="filter-players">
+                <SelectTrigger id="filter-players" className="w-full">
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>
@@ -180,7 +180,7 @@ export function SectionSimulation() {
                   )
                 }
               >
-                <SelectTrigger id="filter-rounds">
+                <SelectTrigger id="filter-rounds" className="w-full">
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>
@@ -200,8 +200,8 @@ export function SectionSimulation() {
             trials each · seed {meta.seed}
           </p>
 
-          <div className="max-h-[60vh] overflow-auto rounded-xl border border-border">
-            <Table>
+          <div className="max-h-[60vh] overflow-auto rounded-xl border border-border max-[900px]:-mx-1">
+            <Table className="min-w-[640px]">
               <TableHeader>
                 <TableRow>
                   <TableHead>Configuration</TableHead>

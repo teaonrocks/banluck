@@ -3,10 +3,10 @@ import type { ConfigResult, SimulationFilters } from '../types/simulation'
 import type { RulesetPreset } from '../data/content'
 
 const EMPTY_FILTERS: SimulationFilters = {
+  advantage: '',
   fifteenRun: '',
   minimum: '',
   players: '',
-  rounds: '',
 }
 
 export function filtersFromPreset(preset: RulesetPreset): SimulationFilters {
@@ -31,10 +31,12 @@ export function useSimulationFilters(
   const filtered = useMemo(() => {
     return results.filter((r) => {
       const c = r.config
+      const edge = r.bankerUnitsPerRoundPerPlayer.mean
+      if (filters.advantage === 'banker' && edge <= 0) return false
+      if (filters.advantage === 'player' && edge >= 0) return false
       if (filters.fifteenRun && c.fifteenRun !== filters.fifteenRun) return false
       if (filters.minimum && c.minimum !== filters.minimum) return false
       if (filters.players && c.players !== filters.players) return false
-      if (filters.rounds && c.rounds !== filters.rounds) return false
       return true
     })
   }, [results, filters])

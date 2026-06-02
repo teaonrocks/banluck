@@ -35,11 +35,11 @@ import {
   TableHeader,
   TableRow,
 } from '@/components/ui/table'
-import type { FifteenRun, Minimum, SimConfig } from '@/types/simulation'
+import type { Advantage, FifteenRun, Minimum, SimConfig } from '@/types/simulation'
 import { cn } from '@/lib/utils'
 
 export function SectionSimulation() {
-  const { meta, filters } = useRuleset()
+  const { meta, results, filters } = useRuleset()
   const { filtered, byBanker, byPlayer, updateFilter } = filters
   const [explorerOpen, setExplorerOpen] = useState(true)
 
@@ -52,7 +52,7 @@ export function SectionSimulation() {
         number="04"
         label="Simulation"
         title="Who has the advantage?"
-        intro="We ran thousands of imaginary game nights for each rule combination. Here is what the numbers say about banker vs player advantage."
+        intro="We ran thousands of imaginary game nights — 100 rounds per session — for each rule combination. Here is what the numbers say about banker vs player advantage."
       />
 
       <Card className="mb-8">
@@ -61,7 +61,9 @@ export function SectionSimulation() {
           banker wins per hand, per player. A positive number means the banker comes out ahead over
           time.{' '}
           <strong className="font-serif">Player win rate</strong> — the share of hands where a
-          player beats the banker.
+          player beats the banker.{' '}
+          <strong className="font-serif">Banker win rate</strong> — the share of hands where the
+          banker beats the player (excluding pushes).
         </CardContent>
       </Card>
 
@@ -108,6 +110,24 @@ export function SectionSimulation() {
         <CollapsibleTrigger>Explore all configurations</CollapsibleTrigger>
         <CollapsibleContent className="pt-4">
           <div className="mb-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="space-y-1.5">
+              <Label htmlFor="filter-advantage">Advantage</Label>
+              <Select
+                value={filters.filters.advantage || 'all'}
+                onValueChange={(v) =>
+                  updateFilter('advantage', v === 'all' ? '' : (v as Advantage))
+                }
+              >
+                <SelectTrigger id="filter-advantage" className="w-full">
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="all">All</SelectItem>
+                  <SelectItem value="banker">Banker favored</SelectItem>
+                  <SelectItem value="player">Player favored</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
             <div className="space-y-1.5">
               <Label htmlFor="filter-fifteen">15 run</Label>
               <Select
@@ -169,35 +189,11 @@ export function SectionSimulation() {
                 </SelectContent>
               </Select>
             </div>
-            <div className="space-y-1.5">
-              <Label htmlFor="filter-rounds">Rounds</Label>
-              <Select
-                value={filters.filters.rounds ? String(filters.filters.rounds) : 'all'}
-                onValueChange={(v) =>
-                  updateFilter(
-                    'rounds',
-                    v === 'all' ? '' : (Number(v) as SimConfig['rounds']),
-                  )
-                }
-              >
-                <SelectTrigger id="filter-rounds" className="w-full">
-                  <SelectValue />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="all">All</SelectItem>
-                  <SelectItem value="10">10</SelectItem>
-                  <SelectItem value="30">30</SelectItem>
-                  <SelectItem value="50">50</SelectItem>
-                  <SelectItem value="70">70</SelectItem>
-                  <SelectItem value="100">100</SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
           </div>
 
           <p className="mb-3 text-sm text-muted-foreground">
-            Showing {filtered.length} of 180 configurations · {meta.trials.toLocaleString()}{' '}
-            trials each · seed {meta.seed}
+            Showing {filtered.length} of {results.length} configurations ·{' '}
+            {meta.trials.toLocaleString()} trials each · 100 rounds per session · seed {meta.seed}
           </p>
 
           <div className="max-h-[60vh] overflow-auto rounded-xl border border-border max-[900px]:-mx-1">
@@ -207,6 +203,7 @@ export function SectionSimulation() {
                   <TableHead>Configuration</TableHead>
                   <TableHead>Banker advantage</TableHead>
                   <TableHead>Player win rate</TableHead>
+                  <TableHead>Banker win rate</TableHead>
                   <TableHead>Push rate</TableHead>
                   <TableHead>15-push rounds</TableHead>
                 </TableRow>
@@ -226,6 +223,7 @@ export function SectionSimulation() {
                       </TableCell>
                       <TableCell>{fmtNum(r.bankerUnitsPerRoundPerPlayer.mean)}</TableCell>
                       <TableCell>{fmtPct(r.playerWinRate.mean)}</TableCell>
+                      <TableCell>{fmtPct(r.bankerWinRate.mean)}</TableCell>
                       <TableCell>{fmtPct(r.pushRate)}</TableCell>
                       <TableCell>{fmtPct(r.pushedRoundRate)}</TableCell>
                     </TableRow>

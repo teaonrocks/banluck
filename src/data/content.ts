@@ -235,7 +235,7 @@ export const ROUND_STEPS = [
 export function formatConfigLabel(config: SimConfig): string {
   const fifteen = fifteenRunLabel(config.fifteenRun)
   const min = `Min ${config.minimum}`
-  return `${fifteen} · ${min} · ${config.players} players · ${config.rounds} rounds`
+  return `${fifteen} · ${min} · ${config.players} players`
 }
 
 export function fifteenRunLabel(value: FifteenRun): string {

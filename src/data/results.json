@@ -2,7 +2,7 @@
   "meta": {
     "trials": 1000,
     "seed": 42,
-    "generatedAt": "2026-06-02T08:16:59.908Z",
+    "generatedAt": "2026-06-02T09:48:33.696Z",
     "rulesVersion": "1.0"
   },
   "results": [
@@ -11,145 +11,9 @@
         "fifteenRun": "both",
         "minimum": 14,
         "players": 3,
-        "rounds": 10
-      },
-      "label": "15=both min=14 3p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08256666666666676,
-        "std": 0.26679065977847427,
-        "ci95": [
-          0.06603081025682934,
-          0.09910252307650418
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3453000000000002,
-        "std": 0.10694969437083438,
-        "ci95": [
-          0.338671189266294,
-          0.3519288107337064
-        ]
-      },
-      "pushRate": 0.23653333333333335,
-      "pushedRoundRate": 0.3068,
-      "specialRates": {
-        "blackjack": 0.04766666666666667,
-        "pocketAces": 0.004833333333333334,
-        "triple7": 0.0002,
-        "fiveCard": 0.0132,
-        "fiveCardBust": 0.016033333333333333
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 14,
-        "players": 3,
-        "rounds": 30
-      },
-      "label": "15=both min=14 3p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.056722222222222334,
-        "std": 0.15522311227699107,
-        "ci95": [
-          0.04710139404843373,
-          0.06634305039601093
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3548111111111109,
-        "std": 0.06290160801842555,
-        "ci95": [
-          0.35091242905453435,
-          0.3587097931676875
-        ]
-      },
-      "pushRate": 0.23364444444444443,
-      "pushedRoundRate": 0.30246666666666666,
-      "specialRates": {
-        "blackjack": 0.0494,
-        "pocketAces": 0.004322222222222222,
-        "triple7": 0.00016666666666666666,
-        "fiveCard": 0.014022222222222222,
-        "fiveCardBust": 0.015733333333333332
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 14,
-        "players": 3,
-        "rounds": 50
-      },
-      "label": "15=both min=14 3p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.057866666666666684,
-        "std": 0.11671505741269682,
-        "ci95": [
-          0.050632592460902445,
-          0.06510074087243092
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3547133333333335,
-        "std": 0.04802316156052711,
-        "ci95": [
-          0.35173682694225267,
-          0.3576898397244143
-        ]
-      },
-      "pushRate": 0.23484,
-      "pushedRoundRate": 0.29948,
-      "specialRates": {
-        "blackjack": 0.04771333333333334,
-        "pocketAces": 0.004273333333333333,
-        "triple7": 0.00020666666666666666,
-        "fiveCard": 0.013673333333333332,
-        "fiveCardBust": 0.016273333333333334
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 14,
-        "players": 3,
-        "rounds": 70
-      },
-      "label": "15=both min=14 3p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.060771428571428664,
-        "std": 0.09793240163724079,
-        "ci95": [
-          0.05470151543170862,
-          0.06684134171114871
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.35369047619047544,
-        "std": 0.04074047377531335,
-        "ci95": [
-          0.3511653554648222,
-          0.3562155969161287
-        ]
-      },
-      "pushRate": 0.2337095238095238,
-      "pushedRoundRate": 0.2996142857142857,
-      "specialRates": {
-        "blackjack": 0.04824285714285714,
-        "pocketAces": 0.0044523809523809525,
-        "triple7": 0.00014285714285714287,
-        "fiveCard": 0.013528571428571428,
-        "fiveCardBust": 0.015947619047619047
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 14,
-        "players": 3,
         "rounds": 100
       },
-      "label": "15=both min=14 3p 100r",
+      "label": "15=both min=14 3p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.05632000000000002,
         "std": 0.08270824511114304,
@@ -164,6 +28,14 @@
         "ci95": [
           0.3531018416464817,
           0.3571981583535177
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.410406666666667,
+        "std": 0.03422190957048135,
+        "ci95": [
+          0.4082855707362555,
+          0.41252776259707846
         ]
       },
       "pushRate": 0.23444333333333334,
@@ -181,145 +53,9 @@
         "fifteenRun": "both",
         "minimum": 14,
         "players": 5,
-        "rounds": 10
-      },
-      "label": "15=both min=14 5p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05228000000000003,
-        "std": 0.23066861427079696,
-        "ci95": [
-          0.03798301116611348,
-          0.06657698883388657
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3538199999999993,
-        "std": 0.09326363549479354,
-        "ci95": [
-          0.3480394599837864,
-          0.3596005400162122
-        ]
-      },
-      "pushRate": 0.23692,
-      "pushedRoundRate": 0.4215,
-      "specialRates": {
-        "blackjack": 0.04916,
-        "pocketAces": 0.00424,
-        "triple7": 0.00012,
-        "fiveCard": 0.01448,
-        "fiveCardBust": 0.01586
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 14,
-        "players": 5,
-        "rounds": 30
-      },
-      "label": "15=both min=14 5p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05775999999999993,
-        "std": 0.13785091281181946,
-        "ci95": [
-          0.04921591190443467,
-          0.06630408809556519
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.35424000000000055,
-        "std": 0.05616265048924105,
-        "ci95": [
-          0.3507590028584323,
-          0.3577209971415688
-        ]
-      },
-      "pushRate": 0.23464,
-      "pushedRoundRate": 0.41506666666666664,
-      "specialRates": {
-        "blackjack": 0.048786666666666666,
-        "pocketAces": 0.00456,
-        "triple7": 0.00016666666666666666,
-        "fiveCard": 0.01352,
-        "fiveCardBust": 0.016213333333333333
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 14,
-        "players": 5,
-        "rounds": 50
-      },
-      "label": "15=both min=14 5p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.06167199999999999,
-        "std": 0.10865130243821987,
-        "ci95": [
-          0.05493772250560781,
-          0.06840627749439218
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3539199999999992,
-        "std": 0.04373431479159464,
-        "ci95": [
-          0.35120931908569386,
-          0.3566306809143045
-        ]
-      },
-      "pushRate": 0.232556,
-      "pushedRoundRate": 0.41538,
-      "specialRates": {
-        "blackjack": 0.048084,
-        "pocketAces": 0.004504,
-        "triple7": 0.000136,
-        "fiveCard": 0.013888,
-        "fiveCardBust": 0.015688
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 14,
-        "players": 5,
-        "rounds": 70
-      },
-      "label": "15=both min=14 5p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05603999999999994,
-        "std": 0.09142986753693062,
-        "ci95": [
-          0.050373118099349815,
-          0.06170688190065006
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3550799999999993,
-        "std": 0.038208189051675355,
-        "ci95": [
-          0.35271183190759664,
-          0.35744816809240193
-        ]
-      },
-      "pushRate": 0.23383142857142858,
-      "pushedRoundRate": 0.4152,
-      "specialRates": {
-        "blackjack": 0.04823714285714286,
-        "pocketAces": 0.004562857142857143,
-        "triple7": 0.00014,
-        "fiveCard": 0.013717142857142857,
-        "fiveCardBust": 0.016005714285714286
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 14,
-        "players": 5,
         "rounds": 100
       },
-      "label": "15=both min=14 5p 100r",
+      "label": "15=both min=14 5p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.05646800000000004,
         "std": 0.0770480199185765,
@@ -334,6 +70,14 @@
         "ci95": [
           0.35349888033791704,
           0.35739311966208437
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.41148399999999924,
+        "std": 0.03131469869493167,
+        "ci95": [
+          0.40954309486648866,
+          0.4134249051335098
         ]
       },
       "pushRate": 0.23307,
@@ -351,145 +95,9 @@
         "fifteenRun": "both",
         "minimum": 14,
         "players": 7,
-        "rounds": 10
-      },
-      "label": "15=both min=14 7p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05351428571428569,
-        "std": 0.23396306341294987,
-        "ci95": [
-          0.039013104807073234,
-          0.06801546662149814
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3567285714285708,
-        "std": 0.09506221318376623,
-        "ci95": [
-          0.3508365544122579,
-          0.36262058844488365
-        ]
-      },
-      "pushRate": 0.23414285714285715,
-      "pushedRoundRate": 0.507,
-      "specialRates": {
-        "blackjack": 0.05035714285714286,
-        "pocketAces": 0.004285714285714286,
-        "triple7": 0.00018571428571428572,
-        "fiveCard": 0.013357142857142857,
-        "fiveCardBust": 0.01637142857142857
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 14,
-        "players": 7,
-        "rounds": 30
-      },
-      "label": "15=both min=14 7p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.055776190476190514,
-        "std": 0.13026093783452883,
-        "ci95": [
-          0.04770253390353894,
-          0.06384984704884208
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3563904761904756,
-        "std": 0.0537860493706998,
-        "ci95": [
-          0.3530567823123435,
-          0.3597241700686077
-        ]
-      },
-      "pushRate": 0.2314047619047619,
-      "pushedRoundRate": 0.5123666666666666,
-      "specialRates": {
-        "blackjack": 0.04824285714285714,
-        "pocketAces": 0.004566666666666667,
-        "triple7": 0.00016666666666666666,
-        "fiveCard": 0.014357142857142857,
-        "fiveCardBust": 0.015833333333333335
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 14,
-        "players": 7,
-        "rounds": 50
-      },
-      "label": "15=both min=14 7p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05804285714285712,
-        "std": 0.09911729782699114,
-        "ci95": [
-          0.05189950337642794,
-          0.06418621090928629
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3546142857142846,
-        "std": 0.04023706333921649,
-        "ci95": [
-          0.3521203666907203,
-          0.35710820473784893
-        ]
-      },
-      "pushRate": 0.23410285714285714,
-      "pushedRoundRate": 0.51388,
-      "specialRates": {
-        "blackjack": 0.048214285714285716,
-        "pocketAces": 0.004342857142857143,
-        "triple7": 0.00017142857142857143,
-        "fiveCard": 0.013785714285714287,
-        "fiveCardBust": 0.015954285714285716
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 14,
-        "players": 7,
-        "rounds": 70
-      },
-      "label": "15=both min=14 7p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.051444897959183715,
-        "std": 0.08825757830912859,
-        "ci95": [
-          0.04597463658192435,
-          0.05691515933644308
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.35613265306122416,
-        "std": 0.034475020403496405,
-        "ci95": [
-          0.35399586915884995,
-          0.35826943696359836
-        ]
-      },
-      "pushRate": 0.23480408163265307,
-      "pushedRoundRate": 0.5161142857142857,
-      "specialRates": {
-        "blackjack": 0.048522448979591834,
-        "pocketAces": 0.004679591836734694,
-        "triple7": 0.00013877551020408165,
-        "fiveCard": 0.013989795918367347,
-        "fiveCardBust": 0.01593265306122449
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 14,
-        "players": 7,
         "rounds": 100
       },
-      "label": "15=both min=14 7p 100r",
+      "label": "15=both min=14 7p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.05447142857142853,
         "std": 0.07456572944182106,
@@ -504,6 +112,14 @@
         "ci95": [
           0.3557044492750887,
           0.35923269358205634
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.41054857142857093,
+        "std": 0.03067477876458669,
+        "ci95": [
+          0.4086473289432609,
+          0.41244981391388097
         ]
       },
       "pushRate": 0.23198285714285713,
@@ -521,145 +137,9 @@
         "fifteenRun": "both",
         "minimum": 14,
         "players": 10,
-        "rounds": 10
-      },
-      "label": "15=both min=14 10p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05370999999999999,
-        "std": 0.20871631081062725,
-        "ci95": [
-          0.04077362903101154,
-          0.06664637096898843
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3550000000000001,
-        "std": 0.08536326427033415,
-        "ci95": [
-          0.349709130065418,
-          0.3602908699345822
-        ]
-      },
-      "pushRate": 0.23427,
-      "pushedRoundRate": 0.6317,
-      "specialRates": {
-        "blackjack": 0.04839,
-        "pocketAces": 0.00452,
-        "triple7": 0.00011,
-        "fiveCard": 0.01385,
-        "fiveCardBust": 0.01553
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 14,
-        "players": 10,
-        "rounds": 30
-      },
-      "label": "15=both min=14 10p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05886333333333328,
-        "std": 0.1297995476807746,
-        "ci95": [
-          0.05081827401868815,
-          0.0669083926479784
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.35487,
-        "std": 0.05086751357468339,
-        "ci95": [
-          0.35171719884461156,
-          0.3580228011553885
-        ]
-      },
-      "pushRate": 0.23332333333333333,
-      "pushedRoundRate": 0.6300666666666667,
-      "specialRates": {
-        "blackjack": 0.048696666666666666,
-        "pocketAces": 0.004523333333333333,
-        "triple7": 0.00015,
-        "fiveCard": 0.01403,
-        "fiveCardBust": 0.015973333333333332
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 14,
-        "players": 10,
-        "rounds": 50
-      },
-      "label": "15=both min=14 10p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05468199999999996,
-        "std": 0.10052548059197851,
-        "ci95": [
-          0.04845136616154737,
-          0.06091263383845255
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.355044,
-        "std": 0.039018155780104154,
-        "ci95": [
-          0.35262562964965793,
-          0.3574623703503421
-        ]
-      },
-      "pushRate": 0.234788,
-      "pushedRoundRate": 0.63092,
-      "specialRates": {
-        "blackjack": 0.048128,
-        "pocketAces": 0.004688,
-        "triple7": 0.00018,
-        "fiveCard": 0.014148,
-        "fiveCardBust": 0.015686
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 14,
-        "players": 10,
-        "rounds": 70
-      },
-      "label": "15=both min=14 10p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.059335714285714325,
-        "std": 0.08081054492268525,
-        "ci95": [
-          0.054327024819779524,
-          0.06434440375164913
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3550171428571435,
-        "std": 0.031647439868750245,
-        "ci95": [
-          0.3530556142120134,
-          0.3569786715022735
-        ]
-      },
-      "pushRate": 0.23188285714285714,
-      "pushedRoundRate": 0.6245428571428572,
-      "specialRates": {
-        "blackjack": 0.048344285714285715,
-        "pocketAces": 0.004515714285714286,
-        "triple7": 0.00014714285714285713,
-        "fiveCard": 0.014208571428571428,
-        "fiveCardBust": 0.01600714285714286
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 14,
-        "players": 10,
         "rounds": 100
       },
-      "label": "15=both min=14 10p 100r",
+      "label": "15=both min=14 10p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.05650000000000002,
         "std": 0.07086765287650096,
@@ -674,6 +154,14 @@
         "ci95": [
           0.353940843263559,
           0.3574751567364409
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.4112680000000001,
+        "std": 0.028436504897944297,
+        "ci95": [
+          0.40950548716622814,
+          0.413030512833772
         ]
       },
       "pushRate": 0.233024,
@@ -691,145 +179,9 @@
         "fifteenRun": "both",
         "minimum": 15,
         "players": 3,
-        "rounds": 10
-      },
-      "label": "15=both min=15 3p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05429999999999995,
-        "std": 0.2719352719406934,
-        "ci95": [
-          0.037445277224790546,
-          0.07115472277520936
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.35530000000000034,
-        "std": 0.10754393483661603,
-        "ci95": [
-          0.3486343578606398,
-          0.3619656421393609
-        ]
-      },
-      "pushRate": 0.23513333333333333,
-      "pushedRoundRate": 0.3017,
-      "specialRates": {
-        "blackjack": 0.04926666666666667,
-        "pocketAces": 0.005,
-        "triple7": 0.00013333333333333334,
-        "fiveCard": 0.013866666666666666,
-        "fiveCardBust": 0.014766666666666668
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 15,
-        "players": 3,
-        "rounds": 30
-      },
-      "label": "15=both min=15 3p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.061155555555555546,
-        "std": 0.1490056862888065,
-        "ci95": [
-          0.051920087436968194,
-          0.0703910236741429
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3518333333333324,
-        "std": 0.060637108751351004,
-        "ci95": [
-          0.3480750063954531,
-          0.3555916602712117
-        ]
-      },
-      "pushRate": 0.23462222222222223,
-      "pushedRoundRate": 0.2990333333333333,
-      "specialRates": {
-        "blackjack": 0.049166666666666664,
-        "pocketAces": 0.004522222222222223,
-        "triple7": 0.00016666666666666666,
-        "fiveCard": 0.013488888888888889,
-        "fiveCardBust": 0.015566666666666666
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 15,
-        "players": 3,
-        "rounds": 50
-      },
-      "label": "15=both min=15 3p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.057853333333333326,
-        "std": 0.11973096969917625,
-        "ci95": [
-          0.05043233094741728,
-          0.06527433571924937
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3537400000000011,
-        "std": 0.04925663807216193,
-        "ci95": [
-          0.3506870419426654,
-          0.3567929580573368
-        ]
-      },
-      "pushRate": 0.23444,
-      "pushedRoundRate": 0.3023,
-      "specialRates": {
-        "blackjack": 0.0477,
-        "pocketAces": 0.004266666666666667,
-        "triple7": 0.00011333333333333333,
-        "fiveCard": 0.01418,
-        "fiveCardBust": 0.015746666666666666
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 15,
-        "players": 3,
-        "rounds": 70
-      },
-      "label": "15=both min=15 3p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05782380952380962,
-        "std": 0.10299686050510869,
-        "ci95": [
-          0.05143999797137105,
-          0.06420762107624818
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3548285714285714,
-        "std": 0.041238975796933995,
-        "ci95": [
-          0.35227255322751033,
-          0.35738458962963243
-        ]
-      },
-      "pushRate": 0.23335714285714285,
-      "pushedRoundRate": 0.2982714285714286,
-      "specialRates": {
-        "blackjack": 0.048042857142857144,
-        "pocketAces": 0.004685714285714286,
-        "triple7": 0.0001619047619047619,
-        "fiveCard": 0.014038095238095238,
-        "fiveCardBust": 0.015523809523809523
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 15,
-        "players": 3,
         "rounds": 100
       },
-      "label": "15=both min=15 3p 100r",
+      "label": "15=both min=15 3p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.056646666666666665,
         "std": 0.08305237683111368,
@@ -844,6 +196,14 @@
         "ci95": [
           0.353755089403585,
           0.357951577263082
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.4113566666666668,
+        "std": 0.03500438522189102,
+        "ci95": [
+          0.40918707239292257,
+          0.41352626094041106
         ]
       },
       "pushRate": 0.23279,
@@ -861,145 +221,9 @@
         "fifteenRun": "both",
         "minimum": 15,
         "players": 5,
-        "rounds": 10
-      },
-      "label": "15=both min=15 5p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.04288000000000001,
-        "std": 0.23603096452841987,
-        "ci95": [
-          0.028250649253770146,
-          0.05750935074622987
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3575799999999992,
-        "std": 0.094811036977415,
-        "ci95": [
-          0.35170355104624607,
-          0.3634564489537523
-        ]
-      },
-      "pushRate": 0.2361,
-      "pushedRoundRate": 0.4175,
-      "specialRates": {
-        "blackjack": 0.04948,
-        "pocketAces": 0.0045,
-        "triple7": 0.00006,
-        "fiveCard": 0.01442,
-        "fiveCardBust": 0.01556
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 15,
-        "players": 5,
-        "rounds": 30
-      },
-      "label": "15=both min=15 5p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.050233333333333276,
-        "std": 0.1361828925550822,
-        "ci95": [
-          0.04179263020438195,
-          0.0586740364622846
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3566066666666666,
-        "std": 0.05271071298804595,
-        "ci95": [
-          0.3533396228280472,
-          0.35987371050528605
-        ]
-      },
-      "pushRate": 0.23359333333333332,
-      "pushedRoundRate": 0.41533333333333333,
-      "specialRates": {
-        "blackjack": 0.04887333333333333,
-        "pocketAces": 0.0043,
-        "triple7": 0.00021333333333333333,
-        "fiveCard": 0.013906666666666666,
-        "fiveCardBust": 0.015886666666666667
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 15,
-        "players": 5,
-        "rounds": 50
-      },
-      "label": "15=both min=15 5p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05904799999999998,
-        "std": 0.11000040811645084,
-        "ci95": [
-          0.05223010406935726,
-          0.0658658959306427
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3547479999999985,
-        "std": 0.04313835200159377,
-        "ci95": [
-          0.35207425724210856,
-          0.35742174275788846
-        ]
-      },
-      "pushRate": 0.232804,
-      "pushedRoundRate": 0.41454,
-      "specialRates": {
-        "blackjack": 0.047664,
-        "pocketAces": 0.00462,
-        "triple7": 0.000176,
-        "fiveCard": 0.013896,
-        "fiveCardBust": 0.016008
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 15,
-        "players": 5,
-        "rounds": 70
-      },
-      "label": "15=both min=15 5p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.06251714285714283,
-        "std": 0.08836378140384447,
-        "ci95": [
-          0.057040298943875786,
-          0.06799398677040987
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.35344571428571325,
-        "std": 0.035571206489790314,
-        "ci95": [
-          0.3512409880658064,
-          0.3556504405056201
-        ]
-      },
-      "pushRate": 0.23372,
-      "pushedRoundRate": 0.41514285714285715,
-      "specialRates": {
-        "blackjack": 0.04824571428571429,
-        "pocketAces": 0.004548571428571429,
-        "triple7": 0.00014571428571428572,
-        "fiveCard": 0.013957142857142857,
-        "fiveCardBust": 0.016282857142857144
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 15,
-        "players": 5,
         "rounds": 100
       },
-      "label": "15=both min=15 5p 100r",
+      "label": "15=both min=15 5p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.051308000000000034,
         "std": 0.07478535943609542,
@@ -1014,6 +238,14 @@
         "ci95": [
           0.35590022203837723,
           0.35961577796162336
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.409096,
+        "std": 0.030823836440211187,
+        "ci95": [
+          0.407185518824239,
+          0.41100648117576105
         ]
       },
       "pushRate": 0.233146,
@@ -1031,145 +263,9 @@
         "fifteenRun": "both",
         "minimum": 15,
         "players": 7,
-        "rounds": 10
-      },
-      "label": "15=both min=15 7p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05230000000000007,
-        "std": 0.22976863596899952,
-        "ci95": [
-          0.038058792399170364,
-          0.06654120760082978
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3569285714285709,
-        "std": 0.0934634912664296,
-        "ci95": [
-          0.3511356442232967,
-          0.36272149863384506
-        ]
-      },
-      "pushRate": 0.23215714285714287,
-      "pushedRoundRate": 0.5082,
-      "specialRates": {
-        "blackjack": 0.048842857142857146,
-        "pocketAces": 0.004328571428571428,
-        "triple7": 0.00014285714285714287,
-        "fiveCard": 0.014257142857142857,
-        "fiveCardBust": 0.0164
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 15,
-        "players": 7,
-        "rounds": 30
-      },
-      "label": "15=both min=15 7p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05638095238095244,
-        "std": 0.13533330787306624,
-        "ci95": [
-          0.04799290705614418,
-          0.06476899770576071
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.35495238095237985,
-        "std": 0.05191246016420671,
-        "ci95": [
-          0.35173481333637147,
-          0.35816994856838824
-        ]
-      },
-      "pushRate": 0.2339142857142857,
-      "pushedRoundRate": 0.5092666666666666,
-      "specialRates": {
-        "blackjack": 0.04757619047619047,
-        "pocketAces": 0.004676190476190476,
-        "triple7": 0.0001761904761904762,
-        "fiveCard": 0.013904761904761904,
-        "fiveCardBust": 0.01631904761904762
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 15,
-        "players": 7,
-        "rounds": 50
-      },
-      "label": "15=both min=15 7p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.06410285714285713,
-        "std": 0.1050112824553262,
-        "ci95": [
-          0.05759419042440458,
-          0.07061152386130967
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.35278285714285634,
-        "std": 0.04215026210613667,
-        "ci95": [
-          0.3501703568311782,
-          0.3553953574545345
-        ]
-      },
-      "pushRate": 0.23356,
-      "pushedRoundRate": 0.51332,
-      "specialRates": {
-        "blackjack": 0.04808857142857143,
-        "pocketAces": 0.0044685714285714285,
-        "triple7": 0.00019428571428571428,
-        "fiveCard": 0.014071428571428572,
-        "fiveCardBust": 0.01576
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 15,
-        "players": 7,
-        "rounds": 70
-      },
-      "label": "15=both min=15 7p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05862857142857144,
-        "std": 0.08807664373226014,
-        "ci95": [
-          0.053169524492571583,
-          0.0640876183645713
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.35578367346938766,
-        "std": 0.03415954741739089,
-        "ci95": [
-          0.3536664427852699,
-          0.35790090415350545
-        ]
-      },
-      "pushRate": 0.23196326530612246,
-      "pushedRoundRate": 0.5112,
-      "specialRates": {
-        "blackjack": 0.047912244897959186,
-        "pocketAces": 0.0045591836734693875,
-        "triple7": 0.00016122448979591836,
-        "fiveCard": 0.013985714285714285,
-        "fiveCardBust": 0.015716326530612244
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 15,
-        "players": 7,
         "rounds": 100
       },
-      "label": "15=both min=15 7p 100r",
+      "label": "15=both min=15 7p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.05603428571428569,
         "std": 0.07006803535534696,
@@ -1184,6 +280,14 @@
         "ci95": [
           0.35267550163571076,
           0.35616735550714634
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.411328571428571,
+        "std": 0.028442045819148457,
+        "ci95": [
+          0.4095657151649448,
+          0.4130914276921972
         ]
       },
       "pushRate": 0.23425,
@@ -1201,145 +305,9 @@
         "fifteenRun": "both",
         "minimum": 15,
         "players": 10,
-        "rounds": 10
-      },
-      "label": "15=both min=15 10p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.048880000000000014,
-        "std": 0.21492030228979392,
-        "ci95": [
-          0.03555910165530607,
-          0.06220089834469396
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3595399999999994,
-        "std": 0.087150350450148,
-        "ci95": [
-          0.35413836531643417,
-          0.36494163468356466
-        ]
-      },
-      "pushRate": 0.22981,
-      "pushedRoundRate": 0.6305,
-      "specialRates": {
-        "blackjack": 0.0493,
-        "pocketAces": 0.00406,
-        "triple7": 0.00022,
-        "fiveCard": 0.01406,
-        "fiveCardBust": 0.01643
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 15,
-        "players": 10,
-        "rounds": 30
-      },
-      "label": "15=both min=15 10p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05787999999999991,
-        "std": 0.13178689045427386,
-        "ci95": [
-          0.049711763904102396,
-          0.06604823609589743
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.35629999999999973,
-        "std": 0.05176410779864293,
-        "ci95": [
-          0.3530916273588719,
-          0.35950837264112756
-        ]
-      },
-      "pushRate": 0.23230666666666666,
-      "pushedRoundRate": 0.6318333333333334,
-      "specialRates": {
-        "blackjack": 0.04874333333333333,
-        "pocketAces": 0.004533333333333334,
-        "triple7": 0.00011333333333333333,
-        "fiveCard": 0.01426,
-        "fiveCardBust": 0.01585
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 15,
-        "players": 10,
-        "rounds": 50
-      },
-      "label": "15=both min=15 10p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05311400000000002,
-        "std": 0.09939196026724581,
-        "ci95": [
-          0.046953622479152315,
-          0.05927437752084773
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.35770799999999964,
-        "std": 0.039532132822876195,
-        "ci95": [
-          0.35525777302250167,
-          0.3601582269774976
-        ]
-      },
-      "pushRate": 0.23241,
-      "pushedRoundRate": 0.62922,
-      "specialRates": {
-        "blackjack": 0.048166,
-        "pocketAces": 0.004406,
-        "triple7": 0.00012,
-        "fiveCard": 0.014094,
-        "fiveCardBust": 0.015978
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 15,
-        "players": 10,
-        "rounds": 70
-      },
-      "label": "15=both min=15 10p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05519142857142866,
-        "std": 0.08148606533727269,
-        "ci95": [
-          0.05014086991641953,
-          0.060241987226437796
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.35496000000000033,
-        "std": 0.032856030421546494,
-        "ci95": [
-          0.3529235621363245,
-          0.3569964378636762
-        ]
-      },
-      "pushRate": 0.23413,
-      "pushedRoundRate": 0.6327,
-      "specialRates": {
-        "blackjack": 0.04857,
-        "pocketAces": 0.00457,
-        "triple7": 0.00015142857142857143,
-        "fiveCard": 0.014148571428571429,
-        "fiveCardBust": 0.015822857142857142
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 15,
-        "players": 10,
         "rounds": 100
       },
-      "label": "15=both min=15 10p 100r",
+      "label": "15=both min=15 10p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.05922800000000003,
         "std": 0.07101626099229194,
@@ -1354,6 +322,14 @@
         "ci95": [
           0.35299706298782396,
           0.35641093701217685
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.4120899999999996,
+        "std": 0.027998496670639583,
+        "ci95": [
+          0.4103546351974183,
+          0.4138253648025809
         ]
       },
       "pushRate": 0.233206,
@@ -1371,145 +347,9 @@
         "fifteenRun": "both",
         "minimum": 16,
         "players": 3,
-        "rounds": 10
-      },
-      "label": "15=both min=16 3p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.0505333333333333,
-        "std": 0.26499254275239753,
-        "ci95": [
-          0.03410892537141373,
-          0.06695774129525286
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3600666666666671,
-        "std": 0.11083447042951454,
-        "ci95": [
-          0.3531970750182765,
-          0.36693625831505766
-        ]
-      },
-      "pushRate": 0.23066666666666666,
-      "pushedRoundRate": 0.2956,
-      "specialRates": {
-        "blackjack": 0.0489,
-        "pocketAces": 0.004733333333333333,
-        "triple7": 0.00013333333333333334,
-        "fiveCard": 0.014133333333333333,
-        "fiveCardBust": 0.0158
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 16,
-        "players": 3,
-        "rounds": 30
-      },
-      "label": "15=both min=16 3p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.06123333333333338,
-        "std": 0.16011783644775254,
-        "ci95": [
-          0.05130912701234623,
-          0.07115753965432053
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.35542222222222125,
-        "std": 0.06392603457059261,
-        "ci95": [
-          0.35146004555011684,
-          0.35938439889432566
-        ]
-      },
-      "pushRate": 0.23228888888888888,
-      "pushedRoundRate": 0.3003,
-      "specialRates": {
-        "blackjack": 0.04721111111111111,
-        "pocketAces": 0.0048111111111111115,
-        "triple7": 0.00022222222222222223,
-        "fiveCard": 0.013944444444444445,
-        "fiveCardBust": 0.01611111111111111
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 16,
-        "players": 3,
-        "rounds": 50
-      },
-      "label": "15=both min=16 3p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.050100000000000006,
-        "std": 0.11624989191695637,
-        "ci95": [
-          0.0428947570503628,
-          0.05730524294963721
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.35784666666666676,
-        "std": 0.04763459281037233,
-        "ci95": [
-          0.35489424401623576,
-          0.36079908931709775
-        ]
-      },
-      "pushRate": 0.23318,
-      "pushedRoundRate": 0.29988,
-      "specialRates": {
-        "blackjack": 0.04889333333333333,
-        "pocketAces": 0.0047933333333333335,
-        "triple7": 0.00014,
-        "fiveCard": 0.013873333333333333,
-        "fiveCardBust": 0.01608
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 16,
-        "players": 3,
-        "rounds": 70
-      },
-      "label": "15=both min=16 3p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.06146190476190484,
-        "std": 0.10094358819667887,
-        "ci95": [
-          0.0552053563456296,
-          0.0677184531781801
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3532285714285713,
-        "std": 0.04057548630527763,
-        "ci95": [
-          0.3507136767322558,
-          0.3557434661248868
-        ]
-      },
-      "pushRate": 0.2338047619047619,
-      "pushedRoundRate": 0.2988571428571429,
-      "specialRates": {
-        "blackjack": 0.048342857142857146,
-        "pocketAces": 0.004428571428571428,
-        "triple7": 0.0001619047619047619,
-        "fiveCard": 0.014057142857142857,
-        "fiveCardBust": 0.01575714285714286
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 16,
-        "players": 3,
         "rounds": 100
       },
-      "label": "15=both min=16 3p 100r",
+      "label": "15=both min=16 3p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.060733333333333306,
         "std": 0.08034679033930935,
@@ -1524,6 +364,14 @@
         "ci95": [
           0.3514776086130615,
           0.35554239138693805
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.41289333333333417,
+        "std": 0.03364495247836914,
+        "ci95": [
+          0.4108079975739786,
+          0.4149786690926897
         ]
       },
       "pushRate": 0.23359666666666667,
@@ -1541,145 +389,9 @@
         "fifteenRun": "both",
         "minimum": 16,
         "players": 5,
-        "rounds": 10
-      },
-      "label": "15=both min=16 5p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.06626,
-        "std": 0.23471408799452811,
-        "ci95": [
-          0.051712270106958926,
-          0.08080772989304107
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.35323999999999955,
-        "std": 0.096043358576878,
-        "ci95": [
-          0.3472871709621896,
-          0.3591928290378095
-        ]
-      },
-      "pushRate": 0.2306,
-      "pushedRoundRate": 0.4174,
-      "specialRates": {
-        "blackjack": 0.04714,
-        "pocketAces": 0.00506,
-        "triple7": 0.00014,
-        "fiveCard": 0.01382,
-        "fiveCardBust": 0.01574
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 16,
-        "players": 5,
-        "rounds": 30
-      },
-      "label": "15=both min=16 5p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05441333333333332,
-        "std": 0.14712122903854366,
-        "ci95": [
-          0.045294665085201316,
-          0.06353200158146532
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.35587333333333376,
-        "std": 0.055279731304860524,
-        "ci95": [
-          0.35244706008977056,
-          0.35929960657689697
-        ]
-      },
-      "pushRate": 0.23361333333333334,
-      "pushedRoundRate": 0.41686666666666666,
-      "specialRates": {
-        "blackjack": 0.0484,
-        "pocketAces": 0.004613333333333333,
-        "triple7": 0.00015333333333333334,
-        "fiveCard": 0.013833333333333333,
-        "fiveCardBust": 0.015746666666666666
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 16,
-        "players": 5,
-        "rounds": 50
-      },
-      "label": "15=both min=16 5p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05703599999999986,
-        "std": 0.10505737363819707,
-        "ci95": [
-          0.05052447652043601,
-          0.0635475234795637
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3552639999999991,
-        "std": 0.04324387050596108,
-        "ci95": [
-          0.35258371713745085,
-          0.3579442828625473
-        ]
-      },
-      "pushRate": 0.233816,
-      "pushedRoundRate": 0.41496,
-      "specialRates": {
-        "blackjack": 0.04808,
-        "pocketAces": 0.004448,
-        "triple7": 0.000164,
-        "fiveCard": 0.013784,
-        "fiveCardBust": 0.015756
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 16,
-        "players": 5,
-        "rounds": 70
-      },
-      "label": "15=both min=16 5p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.057628571428571376,
-        "std": 0.08985567430869776,
-        "ci95": [
-          0.05205925903505847,
-          0.06319788382208429
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3553485714285705,
-        "std": 0.03613688099498346,
-        "ci95": [
-          0.35310878433959,
-          0.35758835851755105
-        ]
-      },
-      "pushRate": 0.23244,
-      "pushedRoundRate": 0.4142142857142857,
-      "specialRates": {
-        "blackjack": 0.04835142857142857,
-        "pocketAces": 0.004371428571428571,
-        "triple7": 0.00015428571428571428,
-        "fiveCard": 0.014342857142857143,
-        "fiveCardBust": 0.015991428571428573
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 16,
-        "players": 5,
         "rounds": 100
       },
-      "label": "15=both min=16 5p 100r",
+      "label": "15=both min=16 5p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.057381999999999926,
         "std": 0.06928889540919979,
@@ -1694,6 +406,14 @@
         "ci95": [
           0.35337102015335575,
           0.35708897984664467
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.4118759999999999,
+        "std": 0.029424248680474555,
+        "ci95": [
+          0.41005226617231766,
+          0.41369973382768216
         ]
       },
       "pushRate": 0.232894,
@@ -1711,145 +431,9 @@
         "fifteenRun": "both",
         "minimum": 16,
         "players": 7,
-        "rounds": 10
-      },
-      "label": "15=both min=16 7p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.04840000000000005,
-        "std": 0.23110610919483895,
-        "ci95": [
-          0.03407589494978869,
-          0.0627241050502114
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.356528571428571,
-        "std": 0.09336111682531212,
-        "ci95": [
-          0.3507419894568959,
-          0.36231515340024606
-        ]
-      },
-      "pushRate": 0.23441428571428571,
-      "pushedRoundRate": 0.5154,
-      "specialRates": {
-        "blackjack": 0.0492,
-        "pocketAces": 0.004314285714285714,
-        "triple7": 0.00012857142857142858,
-        "fiveCard": 0.013514285714285715,
-        "fiveCardBust": 0.0158
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 16,
-        "players": 7,
-        "rounds": 30
-      },
-      "label": "15=both min=16 7p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.053709523809523964,
-        "std": 0.13184662400843322,
-        "ci95": [
-          0.04553758538958239,
-          0.061881462229465535
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3560666666666666,
-        "std": 0.05376112116860816,
-        "ci95": [
-          0.35273451785450755,
-          0.35939881547882563
-        ]
-      },
-      "pushRate": 0.23366190476190477,
-      "pushedRoundRate": 0.5121666666666667,
-      "specialRates": {
-        "blackjack": 0.048,
-        "pocketAces": 0.004519047619047619,
-        "triple7": 0.00015714285714285713,
-        "fiveCard": 0.014404761904761905,
-        "fiveCardBust": 0.01613809523809524
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 16,
-        "players": 7,
-        "rounds": 50
-      },
-      "label": "15=both min=16 7p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05578857142857147,
-        "std": 0.10464801437693641,
-        "ci95": [
-          0.04930242029888623,
-          0.062274722558256716
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3556199999999987,
-        "std": 0.04150927911811966,
-        "ci95": [
-          0.3530472282255182,
-          0.3581927717744792
-        ]
-      },
-      "pushRate": 0.23242857142857143,
-      "pushedRoundRate": 0.51058,
-      "specialRates": {
-        "blackjack": 0.048517142857142856,
-        "pocketAces": 0.0044942857142857146,
-        "triple7": 0.00014857142857142857,
-        "fiveCard": 0.0144,
-        "fiveCardBust": 0.016034285714285713
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 16,
-        "players": 7,
-        "rounds": 70
-      },
-      "label": "15=both min=16 7p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05844897959183676,
-        "std": 0.08672812403392507,
-        "ci95": [
-          0.0530735147726772,
-          0.06382444441099631
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.35490408163265286,
-        "std": 0.03390050393601672,
-        "ci95": [
-          0.35280290662985264,
-          0.35700525663545307
-        ]
-      },
-      "pushRate": 0.23363061224489795,
-      "pushedRoundRate": 0.5166571428571428,
-      "specialRates": {
-        "blackjack": 0.04783265306122449,
-        "pocketAces": 0.004504081632653061,
-        "triple7": 0.00017142857142857143,
-        "fiveCard": 0.01416734693877551,
-        "fiveCardBust": 0.016073469387755102
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 16,
-        "players": 7,
         "rounds": 100
       },
-      "label": "15=both min=16 7p 100r",
+      "label": "15=both min=16 7p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.05951142857142853,
         "std": 0.07302493325989631,
@@ -1864,6 +448,14 @@
         "ci95": [
           0.3529295115175116,
           0.35654477419677577
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.4125257142857145,
+        "std": 0.02930685763006753,
+        "ci95": [
+          0.4107092564307179,
+          0.4143421721407111
         ]
       },
       "pushRate": 0.23273714285714286,
@@ -1881,145 +473,9 @@
         "fifteenRun": "both",
         "minimum": 16,
         "players": 10,
-        "rounds": 10
-      },
-      "label": "15=both min=16 10p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05014999999999999,
-        "std": 0.2171258186423736,
-        "ci95": [
-          0.036692402335524434,
-          0.06360759766447556
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.35641999999999996,
-        "std": 0.08717214338642,
-        "ci95": [
-          0.3510170145762505,
-          0.3618229854237494
-        ]
-      },
-      "pushRate": 0.23491,
-      "pushedRoundRate": 0.6331,
-      "specialRates": {
-        "blackjack": 0.04903,
-        "pocketAces": 0.00445,
-        "triple7": 0.00016,
-        "fiveCard": 0.01387,
-        "fiveCardBust": 0.01653
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 16,
-        "players": 10,
-        "rounds": 30
-      },
-      "label": "15=both min=16 10p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05452666666666663,
-        "std": 0.12329666220687314,
-        "ci95": [
-          0.04688466036945224,
-          0.062168672963881025
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3567099999999996,
-        "std": 0.04949312997132842,
-        "ci95": [
-          0.3536423840228928,
-          0.3597776159771064
-        ]
-      },
-      "pushRate": 0.23107,
-      "pushedRoundRate": 0.6273333333333333,
-      "specialRates": {
-        "blackjack": 0.04902,
-        "pocketAces": 0.00445,
-        "triple7": 0.00016,
-        "fiveCard": 0.014283333333333334,
-        "fiveCardBust": 0.015843333333333334
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 16,
-        "players": 10,
-        "rounds": 50
-      },
-      "label": "15=both min=16 10p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.052294,
-        "std": 0.09596786647308246,
-        "ci95": [
-          0.04634585001125973,
-          0.05824214998874027
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3570120000000001,
-        "std": 0.039508185895492036,
-        "ci95": [
-          0.3545632572684387,
-          0.35946074273156153
-        ]
-      },
-      "pushRate": 0.23298,
-      "pushedRoundRate": 0.62902,
-      "specialRates": {
-        "blackjack": 0.048024,
-        "pocketAces": 0.004502,
-        "triple7": 0.000158,
-        "fiveCard": 0.013888,
-        "fiveCardBust": 0.015862
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 16,
-        "players": 10,
-        "rounds": 70
-      },
-      "label": "15=both min=16 10p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.05866428571428568,
-        "std": 0.08357562099824052,
-        "ci95": [
-          0.05348421505762395,
-          0.06384435637094742
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.355718571428572,
-        "std": 0.032417743218513914,
-        "ci95": [
-          0.35370929888718156,
-          0.35772784396996243
-        ]
-      },
-      "pushRate": 0.23283714285714285,
-      "pushedRoundRate": 0.6298857142857143,
-      "specialRates": {
-        "blackjack": 0.04812857142857143,
-        "pocketAces": 0.00451,
-        "triple7": 0.00013714285714285713,
-        "fiveCard": 0.014135714285714286,
-        "fiveCardBust": 0.01567
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "both",
-        "minimum": 16,
-        "players": 10,
         "rounds": 100
       },
-      "label": "15=both min=16 10p 100r",
+      "label": "15=both min=16 10p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.055566999999999936,
         "std": 0.06911040268120827,
@@ -2034,6 +490,14 @@
         "ci95": [
           0.354486412296139,
           0.3578735877038619
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.4116480000000001,
+        "std": 0.02753859964614156,
+        "ci95": [
+          0.40994113991031517,
+          0.4133548600896851
         ]
       },
       "pushRate": 0.232172,
@@ -2051,145 +515,9 @@
         "fifteenRun": "banker_only",
         "minimum": 14,
         "players": 3,
-        "rounds": 10
-      },
-      "label": "15=banker_only min=14 3p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.1109999999999999,
-        "std": 0.27311827766298213,
-        "ci95": [
-          0.09407195377046856,
-          0.12792804622953124
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.36696666666666716,
-        "std": 0.10963442655143986,
-        "ci95": [
-          0.36017145450843496,
-          0.37376187882489936
-        ]
-      },
-      "pushRate": 0.16506666666666667,
-      "pushedRoundRate": 0.0865,
-      "specialRates": {
-        "blackjack": 0.04766666666666667,
-        "pocketAces": 0.004833333333333334,
-        "triple7": 0.00016666666666666666,
-        "fiveCard": 0.0138,
-        "fiveCardBust": 0.0174
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 14,
-        "players": 3,
-        "rounds": 30
-      },
-      "label": "15=banker_only min=14 3p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08752222222222221,
-        "std": 0.1583007178297482,
-        "ci95": [
-          0.07771064208002224,
-          0.09733380236442218
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.37401111111111074,
-        "std": 0.06445567979716703,
-        "ci95": [
-          0.3700161066877572,
-          0.3780061155344643
-        ]
-      },
-      "pushRate": 0.16475555555555554,
-      "pushedRoundRate": 0.08456666666666666,
-      "specialRates": {
-        "blackjack": 0.0494,
-        "pocketAces": 0.004322222222222222,
-        "triple7": 0.00018888888888888888,
-        "fiveCard": 0.014633333333333333,
-        "fiveCardBust": 0.016644444444444444
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 14,
-        "players": 3,
-        "rounds": 50
-      },
-      "label": "15=banker_only min=14 3p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08886666666666665,
-        "std": 0.1184936973508189,
-        "ci95": [
-          0.081522351215403,
-          0.0962109821179303
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.37337333333333406,
-        "std": 0.048491406281420804,
-        "ci95": [
-          0.3703678048337739,
-          0.3763788618328942
-        ]
-      },
-      "pushRate": 0.16668,
-      "pushedRoundRate": 0.08682,
-      "specialRates": {
-        "blackjack": 0.04771333333333334,
-        "pocketAces": 0.004273333333333333,
-        "triple7": 0.00021333333333333333,
-        "fiveCard": 0.014233333333333334,
-        "fiveCardBust": 0.01704
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 14,
-        "players": 3,
-        "rounds": 70
-      },
-      "label": "15=banker_only min=14 3p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.09281428571428589,
-        "std": 0.10076574152145953,
-        "ci95": [
-          0.08656876034914308,
-          0.0990598110794287
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.37237142857142846,
-        "std": 0.04158183119914374,
-        "ci95": [
-          0.3697941599723775,
-          0.3749486971704794
-        ]
-      },
-      "pushRate": 0.16475714285714285,
-      "pushedRoundRate": 0.08485714285714285,
-      "specialRates": {
-        "blackjack": 0.04824285714285714,
-        "pocketAces": 0.0044523809523809525,
-        "triple7": 0.0001380952380952381,
-        "fiveCard": 0.01428095238095238,
-        "fiveCardBust": 0.016676190476190476
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 14,
-        "players": 3,
         "rounds": 100
       },
-      "label": "15=banker_only min=14 3p 100r",
+      "label": "15=banker_only min=14 3p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.08638000000000007,
         "std": 0.08367175885504358,
@@ -2204,6 +532,14 @@
         "ci95": [
           0.37261504203580303,
           0.3768249579641966
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.4598166666666675,
+        "std": 0.03513071622922499,
+        "ci95": [
+          0.4576392423159666,
+          0.4619940910173684
         ]
       },
       "pushRate": 0.16546333333333332,
@@ -2221,145 +557,9 @@
         "fifteenRun": "banker_only",
         "minimum": 14,
         "players": 5,
-        "rounds": 10
-      },
-      "label": "15=banker_only min=14 5p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08028000000000005,
-        "std": 0.24212754355369695,
-        "ci95": [
-          0.06527277937093053,
-          0.09528722062906957
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.37483999999999906,
-        "std": 0.09781483600222499,
-        "ci95": [
-          0.36877737365383084,
-          0.3809026263461673
-        ]
-      },
-      "pushRate": 0.16722,
-      "pushedRoundRate": 0.0864,
-      "specialRates": {
-        "blackjack": 0.04916,
-        "pocketAces": 0.00424,
-        "triple7": 0.00012,
-        "fiveCard": 0.01532,
-        "fiveCardBust": 0.017
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 14,
-        "players": 5,
-        "rounds": 30
-      },
-      "label": "15=banker_only min=14 5p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08586000000000019,
-        "std": 0.14017012384661284,
-        "ci95": [
-          0.07717216571524188,
-          0.09454783428475849
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3734733333333332,
-        "std": 0.05782571315592118,
-        "ci95": [
-          0.3698892584997662,
-          0.3770574081669002
-        ]
-      },
-      "pushRate": 0.16781333333333334,
-      "pushedRoundRate": 0.08866666666666667,
-      "specialRates": {
-        "blackjack": 0.048786666666666666,
-        "pocketAces": 0.00456,
-        "triple7": 0.00016,
-        "fiveCard": 0.014326666666666666,
-        "fiveCardBust": 0.017093333333333332
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 14,
-        "players": 5,
-        "rounds": 50
-      },
-      "label": "15=banker_only min=14 5p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.09363600000000012,
-        "std": 0.11117742542406665,
-        "ci95": [
-          0.0867451517808223,
-          0.10052684821917794
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3725279999999988,
-        "std": 0.04572145740970718,
-        "ci95": [
-          0.3696941547102005,
-          0.3753618452897971
-        ]
-      },
-      "pushRate": 0.1637,
-      "pushedRoundRate": 0.08368,
-      "specialRates": {
-        "blackjack": 0.048084,
-        "pocketAces": 0.004504,
-        "triple7": 0.000156,
-        "fiveCard": 0.014448,
-        "fiveCardBust": 0.016476
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 14,
-        "players": 5,
-        "rounds": 70
-      },
-      "label": "15=banker_only min=14 5p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08616571428571426,
-        "std": 0.09212532292537001,
-        "ci95": [
-          0.08045572761350943,
-          0.0918757009579191
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.37431999999999854,
-        "std": 0.038945871559431904,
-        "ci95": [
-          0.37190610987207023,
-          0.37673389012792685
-        ]
-      },
-      "pushRate": 0.16563142857142857,
-      "pushedRoundRate": 0.08662857142857143,
-      "specialRates": {
-        "blackjack": 0.04823714285714286,
-        "pocketAces": 0.004562857142857143,
-        "triple7": 0.00014285714285714287,
-        "fiveCard": 0.014617142857142856,
-        "fiveCardBust": 0.016945714285714286
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 14,
-        "players": 5,
         "rounds": 100
       },
-      "label": "15=banker_only min=14 5p 100r",
+      "label": "15=banker_only min=14 5p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.08619800000000002,
         "std": 0.07753740287657859,
@@ -2374,6 +574,14 @@
         "ci95": [
           0.3728031871178994,
           0.37674481288210104
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.4602380000000001,
+        "std": 0.03205780808257258,
+        "ci95": [
+          0.4582510364694638,
+          0.4622249635305364
         ]
       },
       "pushRate": 0.164988,
@@ -2391,145 +599,9 @@
         "fifteenRun": "banker_only",
         "minimum": 14,
         "players": 7,
-        "rounds": 10
-      },
-      "label": "15=banker_only min=14 7p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08562857142857139,
-        "std": 0.23221303826451706,
-        "ci95": [
-          0.07123585820381872,
-          0.10002128465332405
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.37418571428571296,
-        "std": 0.09602820157188083,
-        "ci95": [
-          0.3682338246888056,
-          0.3801376038826203
-        ]
-      },
-      "pushRate": 0.16702857142857142,
-      "pushedRoundRate": 0.0867,
-      "specialRates": {
-        "blackjack": 0.05035714285714286,
-        "pocketAces": 0.004285714285714286,
-        "triple7": 0.00017142857142857143,
-        "fiveCard": 0.014171428571428571,
-        "fiveCardBust": 0.016771428571428573
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 14,
-        "players": 7,
-        "rounds": 30
-      },
-      "label": "15=banker_only min=14 7p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.0894952380952382,
-        "std": 0.13327199633746858,
-        "ci95": [
-          0.08123495418305543,
-          0.09775552200742096
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3747571428571423,
-        "std": 0.05524651003229338,
-        "ci95": [
-          0.37133292868938544,
-          0.37818135702489913
-        ]
-      },
-      "pushRate": 0.16247619047619047,
-      "pushedRoundRate": 0.08346666666666666,
-      "specialRates": {
-        "blackjack": 0.04824285714285714,
-        "pocketAces": 0.004566666666666667,
-        "triple7": 0.00017142857142857143,
-        "fiveCard": 0.01490952380952381,
-        "fiveCardBust": 0.01679047619047619
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 14,
-        "players": 7,
-        "rounds": 50
-      },
-      "label": "15=banker_only min=14 7p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08977999999999997,
-        "std": 0.09961212886508025,
-        "ci95": [
-          0.08360597628807957,
-          0.09595402371192037
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.373517142857141,
-        "std": 0.04076655524215938,
-        "ci95": [
-          0.3709904055854247,
-          0.3760438801288573
-        ]
-      },
-      "pushRate": 0.16531428571428572,
-      "pushedRoundRate": 0.08602,
-      "specialRates": {
-        "blackjack": 0.048214285714285716,
-        "pocketAces": 0.004342857142857143,
-        "triple7": 0.00018,
-        "fiveCard": 0.014551428571428571,
-        "fiveCardBust": 0.016848571428571428
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 14,
-        "players": 7,
-        "rounds": 70
-      },
-      "label": "15=banker_only min=14 7p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08051836734693868,
-        "std": 0.09051315907411789,
-        "ci95": [
-          0.07490830362546823,
-          0.08612843106840913
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.37646530612244855,
-        "std": 0.03668523337514504,
-        "ci95": [
-          0.374191531800827,
-          0.3787390804440701
-        ]
-      },
-      "pushRate": 0.16551020408163264,
-      "pushedRoundRate": 0.08497142857142857,
-      "specialRates": {
-        "blackjack": 0.048522448979591834,
-        "pocketAces": 0.004679591836734694,
-        "triple7": 0.00013877551020408165,
-        "fiveCard": 0.014589795918367347,
-        "fiveCardBust": 0.01675918367346939
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 14,
-        "players": 7,
         "rounds": 100
       },
-      "label": "15=banker_only min=14 7p 100r",
+      "label": "15=banker_only min=14 7p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.0837142857142857,
         "std": 0.07508017681997475,
@@ -2544,6 +616,14 @@
         "ci95": [
           0.3749716699786446,
           0.3786311871642132
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.4591328571428576,
+        "std": 0.030934012666808716,
+        "ci95": [
+          0.45721554717382357,
+          0.4610501671118917
         ]
       },
       "pushRate": 0.1640657142857143,
@@ -2561,145 +641,9 @@
         "fifteenRun": "banker_only",
         "minimum": 14,
         "players": 10,
-        "rounds": 10
-      },
-      "label": "15=banker_only min=14 10p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08152999999999999,
-        "std": 0.21779162585437534,
-        "ci95": [
-          0.06803113517698359,
-          0.0950288648230164
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3761000000000005,
-        "std": 0.09001050989685533,
-        "ci95": [
-          0.37052109079730755,
-          0.38167890920269343
-        ]
-      },
-      "pushRate": 0.16417,
-      "pushedRoundRate": 0.0851,
-      "specialRates": {
-        "blackjack": 0.04839,
-        "pocketAces": 0.00452,
-        "triple7": 0.00009,
-        "fiveCard": 0.01532,
-        "fiveCardBust": 0.01652
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 14,
-        "players": 10,
-        "rounds": 30
-      },
-      "label": "15=banker_only min=14 10p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08752666666666672,
-        "std": 0.12803787932868693,
-        "ci95": [
-          0.07959079668772047,
-          0.09546253664561298
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3745633333333335,
-        "std": 0.051793851337487005,
-        "ci95": [
-          0.3713531171685686,
-          0.37777354949809844
-        ]
-      },
-      "pushRate": 0.16441666666666666,
-      "pushedRoundRate": 0.08466666666666667,
-      "specialRates": {
-        "blackjack": 0.048696666666666666,
-        "pocketAces": 0.004523333333333333,
-        "triple7": 0.00014,
-        "fiveCard": 0.014733333333333333,
-        "fiveCardBust": 0.016903333333333333
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 14,
-        "players": 10,
-        "rounds": 50
-      },
-      "label": "15=banker_only min=14 10p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08349000000000013,
-        "std": 0.10281791392273745,
-        "ci95": [
-          0.07711727967164557,
-          0.0898627203283547
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.37486600000000025,
-        "std": 0.041047130361462666,
-        "ci95": [
-          0.3723218725022212,
-          0.3774101274977793
-        ]
-      },
-      "pushRate": 0.165984,
-      "pushedRoundRate": 0.08632,
-      "specialRates": {
-        "blackjack": 0.048128,
-        "pocketAces": 0.004688,
-        "triple7": 0.000176,
-        "fiveCard": 0.014824,
-        "fiveCardBust": 0.016626
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 14,
-        "players": 10,
-        "rounds": 70
-      },
-      "label": "15=banker_only min=14 10p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.0885857142857144,
-        "std": 0.08399595479821197,
-        "ci95": [
-          0.0833795910702176,
-          0.09379183750121121
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3742928571428574,
-        "std": 0.03398790337068052,
-        "ci95": [
-          0.37218626506697416,
-          0.3763994492187407
-        ]
-      },
-      "pushRate": 0.16368857142857143,
-      "pushedRoundRate": 0.08401428571428571,
-      "specialRates": {
-        "blackjack": 0.048344285714285715,
-        "pocketAces": 0.004515714285714286,
-        "triple7": 0.00015571428571428572,
-        "fiveCard": 0.014854285714285714,
-        "fiveCardBust": 0.01683857142857143
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 14,
-        "players": 10,
         "rounds": 100
       },
-      "label": "15=banker_only min=14 10p 100r",
+      "label": "15=banker_only min=14 10p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.08675400000000014,
         "std": 0.07015097036137599,
@@ -2714,6 +658,14 @@
         "ci95": [
           0.37308315623331123,
           0.37660684376668774
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.4609390000000002,
+        "std": 0.028303150837801588,
+        "ci95": [
+          0.4591847525365078,
+          0.4626932474634926
         ]
       },
       "pushRate": 0.164216,
@@ -2731,145 +683,9 @@
         "fifteenRun": "banker_only",
         "minimum": 15,
         "players": 3,
-        "rounds": 10
-      },
-      "label": "15=banker_only min=15 3p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.09199999999999989,
-        "std": 0.2776123631608204,
-        "ci95": [
-          0.07479340746548363,
-          0.10920659253451614
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.37213333333333326,
-        "std": 0.11181510709080984,
-        "ci95": [
-          0.36520296119497025,
-          0.37906370547169627
-        ]
-      },
-      "pushRate": 0.16513333333333333,
-      "pushedRoundRate": 0.0847,
-      "specialRates": {
-        "blackjack": 0.04926666666666667,
-        "pocketAces": 0.005,
-        "triple7": 0.00013333333333333334,
-        "fiveCard": 0.014233333333333334,
-        "fiveCardBust": 0.015833333333333335
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 15,
-        "players": 3,
-        "rounds": 30
-      },
-      "label": "15=banker_only min=15 3p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.09310000000000009,
-        "std": 0.1535965749414993,
-        "ci95": [
-          0.08357998565472881,
-          0.10262001434527136
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.36986666666666546,
-        "std": 0.06286087230578978,
-        "ci95": [
-          0.3659705094357161,
-          0.37376282389761484
-        ]
-      },
-      "pushRate": 0.1676888888888889,
-      "pushedRoundRate": 0.08673333333333333,
-      "specialRates": {
-        "blackjack": 0.049166666666666664,
-        "pocketAces": 0.004522222222222223,
-        "triple7": 0.00015555555555555556,
-        "fiveCard": 0.013877777777777777,
-        "fiveCardBust": 0.016166666666666666
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 15,
-        "players": 3,
-        "rounds": 50
-      },
-      "label": "15=banker_only min=15 3p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08957333333333332,
-        "std": 0.1221029364210303,
-        "ci95": [
-          0.08200531492686372,
-          0.09714135173980293
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3732666666666674,
-        "std": 0.05049324058844807,
-        "ci95": [
-          0.37013706319130124,
-          0.3763962701420336
-        ]
-      },
-      "pushRate": 0.16419333333333333,
-      "pushedRoundRate": 0.08446,
-      "specialRates": {
-        "blackjack": 0.0477,
-        "pocketAces": 0.004266666666666667,
-        "triple7": 0.00012,
-        "fiveCard": 0.014773333333333333,
-        "fiveCardBust": 0.01654
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 15,
-        "players": 3,
-        "rounds": 70
-      },
-      "label": "15=banker_only min=15 3p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08667619047619064,
-        "std": 0.10548752211772698,
-        "ci95": [
-          0.08013800611765029,
-          0.093214374834731
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3747285714285713,
-        "std": 0.041960568196673605,
-        "ci95": [
-          0.3721278284672116,
-          0.377329314389931
-        ]
-      },
-      "pushRate": 0.16485714285714287,
-      "pushedRoundRate": 0.08428571428571428,
-      "specialRates": {
-        "blackjack": 0.048042857142857144,
-        "pocketAces": 0.004685714285714286,
-        "triple7": 0.0001619047619047619,
-        "fiveCard": 0.01471904761904762,
-        "fiveCardBust": 0.01648095238095238
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 15,
-        "players": 3,
         "rounds": 100
       },
-      "label": "15=banker_only min=15 3p 100r",
+      "label": "15=banker_only min=15 3p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.08635333333333332,
         "std": 0.08669561155211783,
@@ -2884,6 +700,14 @@
         "ci95": [
           0.37312937273343044,
           0.37749729393323644
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.4606466666666665,
+        "std": 0.03657363208511332,
+        "ci95": [
+          0.45837980946466467,
+          0.4629135238686683
         ]
       },
       "pushRate": 0.16404,
@@ -2901,145 +725,9 @@
         "fifteenRun": "banker_only",
         "minimum": 15,
         "players": 5,
-        "rounds": 10
-      },
-      "label": "15=banker_only min=15 5p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.0778799999999999,
-        "std": 0.24103278283752663,
-        "ci95": [
-          0.06294063334310748,
-          0.0928193666568923
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3755599999999987,
-        "std": 0.0992639901461743,
-        "ci95": [
-          0.3694075541494296,
-          0.38171244585056774
-        ]
-      },
-      "pushRate": 0.1669,
-      "pushedRoundRate": 0.0869,
-      "specialRates": {
-        "blackjack": 0.04948,
-        "pocketAces": 0.0045,
-        "triple7": 0.00004,
-        "fiveCard": 0.01496,
-        "fiveCardBust": 0.0165
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 15,
-        "players": 5,
-        "rounds": 30
-      },
-      "label": "15=banker_only min=15 5p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08267999999999995,
-        "std": 0.1431439718799728,
-        "ci95": [
-          0.0738078447045093,
-          0.0915521552954906
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.37540000000000046,
-        "std": 0.05626252872743532,
-        "ci95": [
-          0.3719128123410932,
-          0.3788871876589077
-        ]
-      },
-      "pushRate": 0.16482666666666668,
-      "pushedRoundRate": 0.08493333333333333,
-      "specialRates": {
-        "blackjack": 0.04887333333333333,
-        "pocketAces": 0.0043,
-        "triple7": 0.00023333333333333333,
-        "fiveCard": 0.01466,
-        "fiveCardBust": 0.01678
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 15,
-        "players": 5,
-        "rounds": 50
-      },
-      "label": "15=banker_only min=15 5p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08835999999999997,
-        "std": 0.11183012284879414,
-        "ci95": [
-          0.08142869717531487,
-          0.09529130282468506
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.37393599999999855,
-        "std": 0.04365003126263742,
-        "ci95": [
-          0.37123054303293973,
-          0.37664145696705736
-        ]
-      },
-      "pushRate": 0.164404,
-      "pushedRoundRate": 0.0847,
-      "specialRates": {
-        "blackjack": 0.047664,
-        "pocketAces": 0.00462,
-        "triple7": 0.000164,
-        "fiveCard": 0.014708,
-        "fiveCardBust": 0.016748
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 15,
-        "players": 5,
-        "rounds": 70
-      },
-      "label": "15=banker_only min=15 5p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.09255142857142865,
-        "std": 0.0916626379186778,
-        "ci95": [
-          0.08687011941304683,
-          0.09823273772981046
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3729342857142838,
-        "std": 0.03793480492812826,
-        "ci95": [
-          0.3705830621454093,
-          0.37528550928315824
-        ]
-      },
-      "pushRate": 0.165,
-      "pushedRoundRate": 0.08478571428571428,
-      "specialRates": {
-        "blackjack": 0.04824571428571429,
-        "pocketAces": 0.004548571428571429,
-        "triple7": 0.00015428571428571428,
-        "fiveCard": 0.014762857142857144,
-        "fiveCardBust": 0.01703714285714286
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 15,
-        "players": 5,
         "rounds": 100
       },
-      "label": "15=banker_only min=15 5p 100r",
+      "label": "15=banker_only min=15 5p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.08215799999999994,
         "std": 0.07787463961711474,
@@ -3054,6 +742,14 @@
         "ci95": [
           0.3747723495986227,
           0.3786556504013767
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.4585340000000007,
+        "std": 0.031940742869492875,
+        "ci95": [
+          0.45655429224654326,
+          0.4605137077534582
         ]
       },
       "pushRate": 0.164752,
@@ -3071,145 +767,9 @@
         "fifteenRun": "banker_only",
         "minimum": 15,
         "players": 7,
-        "rounds": 10
-      },
-      "label": "15=banker_only min=15 7p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.07567142857142847,
-        "std": 0.22963288099822668,
-        "ci95": [
-          0.06143863515086087,
-          0.08990422199199608
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3767714285714273,
-        "std": 0.09461629275711461,
-        "ci95": [
-          0.3709070499895013,
-          0.3826358071533533
-        ]
-      },
-      "pushRate": 0.16717142857142858,
-      "pushedRoundRate": 0.0876,
-      "specialRates": {
-        "blackjack": 0.048842857142857146,
-        "pocketAces": 0.004328571428571428,
-        "triple7": 0.00011428571428571428,
-        "fiveCard": 0.014814285714285714,
-        "fiveCardBust": 0.01672857142857143
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 15,
-        "players": 7,
-        "rounds": 30
-      },
-      "label": "15=banker_only min=15 7p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08743809523809545,
-        "std": 0.13602878971778593,
-        "ci95": [
-          0.07900694350195524,
-          0.09586924697423567
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3735238095238092,
-        "std": 0.053389873538999294,
-        "ci95": [
-          0.370214670878126,
-          0.3768329481694924
-        ]
-      },
-      "pushRate": 0.16617619047619048,
-      "pushedRoundRate": 0.0855,
-      "specialRates": {
-        "blackjack": 0.04757619047619047,
-        "pocketAces": 0.004676190476190476,
-        "triple7": 0.0001761904761904762,
-        "fiveCard": 0.014733333333333333,
-        "fiveCardBust": 0.017114285714285714
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 15,
-        "players": 7,
-        "rounds": 50
-      },
-      "label": "15=banker_only min=15 7p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.094702857142857,
-        "std": 0.10582714472227947,
-        "ci95": [
-          0.08814362275720147,
-          0.10126209152851254
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3717485714285704,
-        "std": 0.04318332008805846,
-        "ci95": [
-          0.36907204151980555,
-          0.3744251013373352
-        ]
-      },
-      "pushRate": 0.16478,
-      "pushedRoundRate": 0.08518,
-      "specialRates": {
-        "blackjack": 0.04808857142857143,
-        "pocketAces": 0.0044685714285714285,
-        "triple7": 0.00020285714285714286,
-        "fiveCard": 0.014948571428571429,
-        "fiveCardBust": 0.01669714285714286
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 15,
-        "players": 7,
-        "rounds": 70
-      },
-      "label": "15=banker_only min=15 7p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08825102040816325,
-        "std": 0.08808700793030698,
-        "ci95": [
-          0.08279133109251319,
-          0.09371070972381332
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.375134693877551,
-        "std": 0.035451270583794575,
-        "ci95": [
-          0.37293740136211334,
-          0.37733198639298865
-        ]
-      },
-      "pushRate": 0.16378163265306123,
-      "pushedRoundRate": 0.08361428571428571,
-      "specialRates": {
-        "blackjack": 0.047912244897959186,
-        "pocketAces": 0.0045591836734693875,
-        "triple7": 0.0001530612244897959,
-        "fiveCard": 0.014540816326530611,
-        "fiveCardBust": 0.016608163265306123
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 15,
-        "players": 7,
         "rounds": 100
       },
-      "label": "15=banker_only min=15 7p 100r",
+      "label": "15=banker_only min=15 7p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.08581285714285723,
         "std": 0.07186715400347535,
@@ -3224,6 +784,14 @@
         "ci95": [
           0.372608603420348,
           0.37625996800822387
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.4606071428571431,
+        "std": 0.029280573676961907,
+        "ci95": [
+          0.4587923140984379,
+          0.4624219716158483
         ]
       },
       "pushRate": 0.16495857142857143,
@@ -3241,145 +809,9 @@
         "fifteenRun": "banker_only",
         "minimum": 15,
         "players": 10,
-        "rounds": 10
-      },
-      "label": "15=banker_only min=15 10p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08161000000000003,
-        "std": 0.2220040398139045,
-        "ci95": [
-          0.06785004705481545,
-          0.0953699529451846
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.37789999999999996,
-        "std": 0.09180423747310368,
-        "ci95": [
-          0.3722099144103082,
-          0.3835900855896917
-        ]
-      },
-      "pushRate": 0.1609,
-      "pushedRoundRate": 0.0806,
-      "specialRates": {
-        "blackjack": 0.0493,
-        "pocketAces": 0.00406,
-        "triple7": 0.00019,
-        "fiveCard": 0.01487,
-        "fiveCardBust": 0.01746
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 15,
-        "players": 10,
-        "rounds": 30
-      },
-      "label": "15=banker_only min=15 10p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.09048666666666669,
-        "std": 0.13423645938055365,
-        "ci95": [
-          0.08216660471575388,
-          0.0988067286175795
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.37444,
-        "std": 0.05377173999643739,
-        "ci95": [
-          0.3711071930260733,
-          0.3777728069739267
-        ]
-      },
-      "pushRate": 0.16422333333333333,
-      "pushedRoundRate": 0.08466666666666667,
-      "specialRates": {
-        "blackjack": 0.04874333333333333,
-        "pocketAces": 0.004533333333333334,
-        "triple7": 0.00013,
-        "fiveCard": 0.014596666666666668,
-        "fiveCardBust": 0.016946666666666665
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 15,
-        "players": 10,
-        "rounds": 50
-      },
-      "label": "15=banker_only min=15 10p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.0803299999999999,
-        "std": 0.10263795423550519,
-        "ci95": [
-          0.07396843368861918,
-          0.08669156631138063
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3786120000000002,
-        "std": 0.04127984352539968,
-        "ci95": [
-          0.3760534487908861,
-          0.38117055120911436
-        ]
-      },
-      "pushRate": 0.163504,
-      "pushedRoundRate": 0.08394,
-      "specialRates": {
-        "blackjack": 0.048166,
-        "pocketAces": 0.004406,
-        "triple7": 0.000134,
-        "fiveCard": 0.01484,
-        "fiveCardBust": 0.01694
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 15,
-        "players": 10,
-        "rounds": 70
-      },
-      "label": "15=banker_only min=15 10p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08539000000000004,
-        "std": 0.08057934429272186,
-        "ci95": [
-          0.08039564049757338,
-          0.0903843595024267
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.37472142857142865,
-        "std": 0.032766086469778404,
-        "ci95": [
-          0.3726905654916399,
-          0.3767522916512174
-        ]
-      },
-      "pushRate": 0.16500714285714285,
-      "pushedRoundRate": 0.08517142857142856,
-      "specialRates": {
-        "blackjack": 0.04857,
-        "pocketAces": 0.00457,
-        "triple7": 0.00015,
-        "fiveCard": 0.014787142857142856,
-        "fiveCardBust": 0.016824285714285715
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 15,
-        "players": 10,
         "rounds": 100
       },
-      "label": "15=banker_only min=15 10p 100r",
+      "label": "15=banker_only min=15 10p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.08936199999999998,
         "std": 0.07179468945147287,
@@ -3394,6 +826,14 @@
         "ci95": [
           0.37237759246391117,
           0.3759744075360906
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.4609790000000001,
+        "std": 0.028331382356429863,
+        "ci95": [
+          0.4592230027288545,
+          0.46273499727114564
         ]
       },
       "pushRate": 0.164845,
@@ -3411,145 +851,9 @@
         "fifteenRun": "banker_only",
         "minimum": 16,
         "players": 3,
-        "rounds": 10
-      },
-      "label": "15=banker_only min=16 3p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.07943333333333323,
-        "std": 0.2685666195569579,
-        "ci95": [
-          0.06278740179601183,
-          0.09607926487065463
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3790666666666668,
-        "std": 0.11378961712676071,
-        "ci95": [
-          0.372013913128365,
-          0.38611942020496853
-        ]
-      },
-      "pushRate": 0.16316666666666665,
-      "pushedRoundRate": 0.0834,
-      "specialRates": {
-        "blackjack": 0.0489,
-        "pocketAces": 0.004733333333333333,
-        "triple7": 0.00013333333333333334,
-        "fiveCard": 0.015033333333333333,
-        "fiveCardBust": 0.0161
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 16,
-        "players": 3,
-        "rounds": 30
-      },
-      "label": "15=banker_only min=16 3p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.09560000000000003,
-        "std": 0.16517711413688724,
-        "ci95": [
-          0.08536221639907927,
-          0.10583778360092079
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3729222222222211,
-        "std": 0.06593229059790578,
-        "ci95": [
-          0.36883569651324793,
-          0.37700874793119427
-        ]
-      },
-      "pushRate": 0.16352222222222224,
-      "pushedRoundRate": 0.08313333333333334,
-      "specialRates": {
-        "blackjack": 0.04721111111111111,
-        "pocketAces": 0.0048111111111111115,
-        "triple7": 0.0002,
-        "fiveCard": 0.014677777777777777,
-        "fiveCardBust": 0.016755555555555555
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 16,
-        "players": 3,
-        "rounds": 50
-      },
-      "label": "15=banker_only min=16 3p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.07793333333333323,
-        "std": 0.11899252683957028,
-        "ci95": [
-          0.07055810011003874,
-          0.08530856655662772
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3779333333333336,
-        "std": 0.04815349165697914,
-        "ci95": [
-          0.3749487489991846,
-          0.3809179176674826
-        ]
-      },
-      "pushRate": 0.16479333333333332,
-      "pushedRoundRate": 0.08604,
-      "specialRates": {
-        "blackjack": 0.04889333333333333,
-        "pocketAces": 0.0047933333333333335,
-        "triple7": 0.00014,
-        "fiveCard": 0.01464,
-        "fiveCardBust": 0.01706
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 16,
-        "players": 3,
-        "rounds": 70
-      },
-      "label": "15=banker_only min=16 3p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.09316190476190477,
-        "std": 0.10369698072803975,
-        "ci95": [
-          0.08673469930847422,
-          0.09958911021533531
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.37143333333333345,
-        "std": 0.041633167060783,
-        "ci95": [
-          0.3688528829046134,
-          0.3740137837620535
-        ]
-      },
-      "pushRate": 0.16612857142857143,
-      "pushedRoundRate": 0.08584285714285714,
-      "specialRates": {
-        "blackjack": 0.048342857142857146,
-        "pocketAces": 0.004428571428571428,
-        "triple7": 0.00015238095238095237,
-        "fiveCard": 0.014904761904761905,
-        "fiveCardBust": 0.016714285714285713
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 16,
-        "players": 3,
         "rounds": 100
       },
-      "label": "15=banker_only min=16 3p 100r",
+      "label": "15=banker_only min=16 3p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.09157333333333337,
         "std": 0.08180161988693888,
@@ -3564,6 +868,14 @@
         "ci95": [
           0.37107853744754526,
           0.37528812921912214
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.4632266666666674,
+        "std": 0.0340165183921507,
+        "ci95": [
+          0.4611183010133786,
+          0.4653350323199562
         ]
       },
       "pushRate": 0.16359,
@@ -3581,145 +893,9 @@
         "fifteenRun": "banker_only",
         "minimum": 16,
         "players": 5,
-        "rounds": 10
-      },
-      "label": "15=banker_only min=16 5p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.09744000000000008,
-        "std": 0.23600072614876144,
-        "ci95": [
-          0.0828125234479587,
-          0.11206747655204147
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.37219999999999887,
-        "std": 0.09672080911011276,
-        "ci95": [
-          0.3662051821431214,
-          0.3781948178568763
-        ]
-      },
-      "pushRate": 0.16256,
-      "pushedRoundRate": 0.0821,
-      "specialRates": {
-        "blackjack": 0.04714,
-        "pocketAces": 0.00506,
-        "triple7": 0.00014,
-        "fiveCard": 0.01472,
-        "fiveCardBust": 0.01684
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 16,
-        "players": 5,
-        "rounds": 30
-      },
-      "label": "15=banker_only min=16 5p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08555333333333318,
-        "std": 0.14844571382217253,
-        "ci95": [
-          0.07635257266780812,
-          0.09475409399885823
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3741066666666676,
-        "std": 0.057189016867900296,
-        "ci95": [
-          0.37056205467787984,
-          0.37765127865545534
-        ]
-      },
-      "pushRate": 0.1654,
-      "pushedRoundRate": 0.08566666666666667,
-      "specialRates": {
-        "blackjack": 0.0484,
-        "pocketAces": 0.004613333333333333,
-        "triple7": 0.00018,
-        "fiveCard": 0.01448,
-        "fiveCardBust": 0.01658
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 16,
-        "players": 5,
-        "rounds": 50
-      },
-      "label": "15=banker_only min=16 5p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08777199999999998,
-        "std": 0.1088058579798472,
-        "ci95": [
-          0.08102814305389154,
-          0.09451585694610841
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3741159999999977,
-        "std": 0.044677316466039056,
-        "ci95": [
-          0.37134687123637183,
-          0.3768851287636235
-        ]
-      },
-      "pushRate": 0.1659,
-      "pushedRoundRate": 0.08638,
-      "specialRates": {
-        "blackjack": 0.04808,
-        "pocketAces": 0.004448,
-        "triple7": 0.00016,
-        "fiveCard": 0.014568,
-        "fiveCardBust": 0.016728
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 16,
-        "players": 5,
-        "rounds": 70
-      },
-      "label": "15=banker_only min=16 5p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08853142857142851,
-        "std": 0.09336308738733234,
-        "ci95": [
-          0.08274472446305405,
-          0.09431813267980298
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3741228571428552,
-        "std": 0.038222626029213974,
-        "ci95": [
-          0.3717537942373142,
-          0.3764919200483962
-        ]
-      },
-      "pushRate": 0.16400285714285714,
-      "pushedRoundRate": 0.08444285714285714,
-      "specialRates": {
-        "blackjack": 0.04835142857142857,
-        "pocketAces": 0.004371428571428571,
-        "triple7": 0.00016571428571428572,
-        "fiveCard": 0.015165714285714286,
-        "fiveCardBust": 0.01668
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 16,
-        "players": 5,
         "rounds": 100
       },
-      "label": "15=banker_only min=16 5p 100r",
+      "label": "15=banker_only min=16 5p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.08746799999999998,
         "std": 0.07171306533498434,
@@ -3734,6 +910,14 @@
         "ci95": [
           0.37251358208167507,
           0.37635041791832535
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.46128600000000053,
+        "std": 0.030532121027115264,
+        "ci95": [
+          0.45939359953286507,
+          0.463178400467136
         ]
       },
       "pushRate": 0.164282,
@@ -3751,145 +935,9 @@
         "fifteenRun": "banker_only",
         "minimum": 16,
         "players": 7,
-        "rounds": 10
-      },
-      "label": "15=banker_only min=16 7p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.07437142857142863,
-        "std": 0.23806759341871542,
-        "ci95": [
-          0.059615846258778804,
-          0.08912701088407846
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.37749999999999895,
-        "std": 0.0966586199320809,
-        "ci95": [
-          0.37150903666831003,
-          0.38349096333168786
-        ]
-      },
-      "pushRate": 0.1659,
-      "pushedRoundRate": 0.0855,
-      "specialRates": {
-        "blackjack": 0.0492,
-        "pocketAces": 0.004314285714285714,
-        "triple7": 0.00015714285714285713,
-        "fiveCard": 0.013971428571428572,
-        "fiveCardBust": 0.016928571428571428
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 16,
-        "players": 7,
-        "rounds": 30
-      },
-      "label": "15=banker_only min=16 7p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.0864095238095239,
-        "std": 0.1347761849865943,
-        "ci95": [
-          0.07805600931896967,
-          0.09476303830007812
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3744999999999998,
-        "std": 0.05564495574919037,
-        "ci95": [
-          0.371051089910852,
-          0.37794891008914755
-        ]
-      },
-      "pushRate": 0.1652809523809524,
-      "pushedRoundRate": 0.08553333333333334,
-      "specialRates": {
-        "blackjack": 0.048,
-        "pocketAces": 0.004519047619047619,
-        "triple7": 0.00014285714285714287,
-        "fiveCard": 0.015114285714285714,
-        "fiveCardBust": 0.016985714285714285
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 16,
-        "players": 7,
-        "rounds": 50
-      },
-      "label": "15=banker_only min=16 7p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08479999999999997,
-        "std": 0.10368707232896411,
-        "ci95": [
-          0.07837340867550671,
-          0.09122659132449323
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3751514285714272,
-        "std": 0.042013741427709854,
-        "ci95": [
-          0.3725473898990632,
-          0.37775546724379117
-        ]
-      },
-      "pushRate": 0.16431714285714286,
-      "pushedRoundRate": 0.08362,
-      "specialRates": {
-        "blackjack": 0.048517142857142856,
-        "pocketAces": 0.0044942857142857146,
-        "triple7": 0.00014,
-        "fiveCard": 0.015211428571428572,
-        "fiveCardBust": 0.016745714285714287
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 16,
-        "players": 7,
-        "rounds": 70
-      },
-      "label": "15=banker_only min=16 7p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08968979591836736,
-        "std": 0.08970968910759687,
-        "ci95": [
-          0.08412953178136151,
-          0.0952500600553732
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3738122448979589,
-        "std": 0.03614766233533597,
-        "ci95": [
-          0.37157178957458015,
-          0.37605270022133763
-        ]
-      },
-      "pushRate": 0.16491836734693877,
-      "pushedRoundRate": 0.08498571428571429,
-      "specialRates": {
-        "blackjack": 0.04783265306122449,
-        "pocketAces": 0.004504081632653061,
-        "triple7": 0.00017142857142857143,
-        "fiveCard": 0.014910204081632654,
-        "fiveCardBust": 0.01696122448979592
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 16,
-        "players": 7,
         "rounds": 100
       },
-      "label": "15=banker_only min=16 7p 100r",
+      "label": "15=banker_only min=16 7p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.08839142857142857,
         "std": 0.07592715280143549,
@@ -3904,6 +952,14 @@
         "ci95": [
           0.37294120743577486,
           0.3767359354213681
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.46161714285714317,
+        "std": 0.030595826955257432,
+        "ci95": [
+          0.4597207938556734,
+          0.46351349185861296
         ]
       },
       "pushRate": 0.16354428571428573,
@@ -3921,145 +977,9 @@
         "fifteenRun": "banker_only",
         "minimum": 16,
         "players": 10,
-        "rounds": 10
-      },
-      "label": "15=banker_only min=16 10p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.07692999999999997,
-        "std": 0.22650337498341772,
-        "ci95": [
-          0.06289117537180902,
-          0.09096882462819092
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3768200000000002,
-        "std": 0.09403898622874952,
-        "ci95": [
-          0.37099140324741353,
-          0.3826485967525869
-        ]
-      },
-      "pushRate": 0.16577,
-      "pushedRoundRate": 0.0853,
-      "specialRates": {
-        "blackjack": 0.04903,
-        "pocketAces": 0.00445,
-        "triple7": 0.00018,
-        "fiveCard": 0.01412,
-        "fiveCardBust": 0.0172
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 16,
-        "players": 10,
-        "rounds": 30
-      },
-      "label": "15=banker_only min=16 10p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08712,
-        "std": 0.12658091613007225,
-        "ci95": [
-          0.07927443353567722,
-          0.09496556646432279
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3745633333333334,
-        "std": 0.051719497782706125,
-        "ci95": [
-          0.37135772564963915,
-          0.3777689410170277
-        ]
-      },
-      "pushRate": 0.16282,
-      "pushedRoundRate": 0.08246666666666666,
-      "specialRates": {
-        "blackjack": 0.04902,
-        "pocketAces": 0.00445,
-        "triple7": 0.00015666666666666666,
-        "fiveCard": 0.01488,
-        "fiveCardBust": 0.01652
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 16,
-        "players": 10,
-        "rounds": 50
-      },
-      "label": "15=banker_only min=16 10p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08053399999999998,
-        "std": 0.10005623465878627,
-        "ci95": [
-          0.0743324503258079,
-          0.08673554967419206
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.37698200000000015,
-        "std": 0.04172736331052855,
-        "ci95": [
-          0.3743957112272337,
-          0.3795682887727666
-        ]
-      },
-      "pushRate": 0.164162,
-      "pushedRoundRate": 0.08418,
-      "specialRates": {
-        "blackjack": 0.048024,
-        "pocketAces": 0.004502,
-        "triple7": 0.00017,
-        "fiveCard": 0.014524,
-        "fiveCardBust": 0.016632
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 16,
-        "players": 10,
-        "rounds": 70
-      },
-      "label": "15=banker_only min=16 10p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08845714285714287,
-        "std": 0.08745757601896643,
-        "ci95": [
-          0.08303646613554067,
-          0.09387781957874508
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.3754557142857139,
-        "std": 0.03433168896089623,
-        "ci95": [
-          0.37332781415819083,
-          0.37758361441323696
-        ]
-      },
-      "pushRate": 0.16392857142857142,
-      "pushedRoundRate": 0.08422857142857143,
-      "specialRates": {
-        "blackjack": 0.04812857142857143,
-        "pocketAces": 0.00451,
-        "triple7": 0.00013428571428571428,
-        "fiveCard": 0.014854285714285714,
-        "fiveCardBust": 0.016675714285714287
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "banker_only",
-        "minimum": 16,
-        "players": 10,
         "rounds": 100
       },
-      "label": "15=banker_only min=16 10p 100r",
+      "label": "15=banker_only min=16 10p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.08542500000000014,
         "std": 0.0715487917759944,
@@ -4074,6 +994,14 @@
         "ci95": [
           0.373589789714327,
           0.3771582102856733
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.46098100000000003,
+        "std": 0.028403792254106074,
+        "ci95": [
+          0.45922051471689923,
+          0.46274148528310083
         ]
       },
       "pushRate": 0.163645,
@@ -4091,145 +1019,9 @@
         "fifteenRun": "none",
         "minimum": 14,
         "players": 3,
-        "rounds": 10
-      },
-      "label": "15=none min=14 3p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.07683333333333328,
-        "std": 0.28827218188866394,
-        "ci95": [
-          0.05896603838897674,
-          0.09470062827768982
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.41543333333333277,
-        "std": 0.11360872055361922,
-        "ci95": [
-          0.4083917918807951,
-          0.4224748747858704
-        ]
-      },
-      "pushRate": 0.09056666666666667,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.047233333333333336,
-        "pocketAces": 0.0042,
-        "triple7": 0.00013333333333333334,
-        "fiveCard": 0.015933333333333334,
-        "fiveCardBust": 0.0184
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 14,
-        "players": 3,
-        "rounds": 30
-      },
-      "label": "15=none min=14 3p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08156666666666673,
-        "std": 0.1583837778944309,
-        "ci95": [
-          0.0717499384083216,
-          0.09138339492501187
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4160333333333329,
-        "std": 0.06379724704645179,
-        "ci95": [
-          0.41207913899467424,
-          0.4199875276719916
-        ]
-      },
-      "pushRate": 0.08835555555555556,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.0485,
-        "pocketAces": 0.004344444444444444,
-        "triple7": 0.00015555555555555556,
-        "fiveCard": 0.016166666666666666,
-        "fiveCardBust": 0.018477777777777777
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 14,
-        "players": 3,
-        "rounds": 50
-      },
-      "label": "15=none min=14 3p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08325333333333346,
-        "std": 0.12516235364647732,
-        "ci95": [
-          0.07549569028265861,
-          0.0910109763840083
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.41496666666666665,
-        "std": 0.05023312353451023,
-        "ci95": [
-          0.41185318541333493,
-          0.41808014791999837
-        ]
-      },
-      "pushRate": 0.08816,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04822,
-        "pocketAces": 0.00464,
-        "triple7": 0.00013333333333333334,
-        "fiveCard": 0.016433333333333335,
-        "fiveCardBust": 0.018386666666666666
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 14,
-        "players": 3,
-        "rounds": 70
-      },
-      "label": "15=none min=14 3p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08511428571428595,
-        "std": 0.10833722899575662,
-        "ci95": [
-          0.07839947469353653,
-          0.09182909673503536
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4136476190476191,
-        "std": 0.04260297278282262,
-        "ci95": [
-          0.4110070594374966,
-          0.4162881786577416
-        ]
-      },
-      "pushRate": 0.08956666666666667,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.047504761904761904,
-        "pocketAces": 0.004647619047619048,
-        "triple7": 0.00022857142857142857,
-        "fiveCard": 0.016295238095238095,
-        "fiveCardBust": 0.01832857142857143
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 14,
-        "players": 3,
         "rounds": 100
       },
-      "label": "15=none min=14 3p 100r",
+      "label": "15=none min=14 3p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.07665000000000013,
         "std": 0.09002532886702158,
@@ -4244,6 +1036,14 @@
         "ci95": [
           0.41477112093069635,
           0.4191955457359704
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.49366999999999944,
+        "std": 0.034554990516448045,
+        "ci95": [
+          0.49152825949867257,
+          0.4958117405013263
         ]
       },
       "pushRate": 0.08934666666666667,
@@ -4261,145 +1061,9 @@
         "fifteenRun": "none",
         "minimum": 14,
         "players": 5,
-        "rounds": 10
-      },
-      "label": "15=none min=14 5p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.09147999999999991,
-        "std": 0.2556606578493685,
-        "ci95": [
-          0.07563398825674011,
-          0.1073260117432597
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4122399999999989,
-        "std": 0.09992881550467922,
-        "ci95": [
-          0.4060463478467992,
-          0.41843365215319855
-        ]
-      },
-      "pushRate": 0.08814,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04766,
-        "pocketAces": 0.00442,
-        "triple7": 0.00014,
-        "fiveCard": 0.0162,
-        "fiveCardBust": 0.01842
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 14,
-        "players": 5,
-        "rounds": 30
-      },
-      "label": "15=none min=14 5p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08690000000000012,
-        "std": 0.14174591396702954,
-        "ci95": [
-          0.07811449723170162,
-          0.09568550276829861
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4133933333333337,
-        "std": 0.0572241586890625,
-        "ci95": [
-          0.4098465432319044,
-          0.41694012343476305
-        ]
-      },
-      "pushRate": 0.08999333333333333,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04794,
-        "pocketAces": 0.0043,
-        "triple7": 0.00016666666666666666,
-        "fiveCard": 0.016486666666666667,
-        "fiveCardBust": 0.0185
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 14,
-        "players": 5,
-        "rounds": 50
-      },
-      "label": "15=none min=14 5p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08844799999999996,
-        "std": 0.11446769915635646,
-        "ci95": [
-          0.08135321850208074,
-          0.09554278149791917
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.41304399999999775,
-        "std": 0.04532288856889229,
-        "ci95": [
-          0.41023485826288986,
-          0.41585314173710564
-        ]
-      },
-      "pushRate": 0.08936,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.047316,
-        "pocketAces": 0.004556,
-        "triple7": 0.000184,
-        "fiveCard": 0.016052,
-        "fiveCardBust": 0.01854
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 14,
-        "players": 5,
-        "rounds": 70
-      },
-      "label": "15=none min=14 5p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08426000000000007,
-        "std": 0.09207265974561499,
-        "ci95": [
-          0.07855327742549356,
-          0.08996672257450658
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4146828571428557,
-        "std": 0.03614615803455499,
-        "ci95": [
-          0.41244249505700536,
-          0.416923219228706
-        ]
-      },
-      "pushRate": 0.08917142857142857,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.048074285714285715,
-        "pocketAces": 0.004608571428571429,
-        "triple7": 0.00016571428571428572,
-        "fiveCard": 0.016005714285714286,
-        "fiveCardBust": 0.018334285714285713
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 14,
-        "players": 5,
         "rounds": 100
       },
-      "label": "15=none min=14 5p 100r",
+      "label": "15=none min=14 5p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.08200599999999995,
         "std": 0.07928057374523324,
@@ -4414,6 +1078,14 @@
         "ci95": [
           0.4123183111995289,
           0.41625768880047054
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.496226,
+        "std": 0.029948118702412947,
+        "ci95": [
+          0.49436979637196043,
+          0.49808220362803957
         ]
       },
       "pushRate": 0.089486,
@@ -4431,145 +1103,9 @@
         "fifteenRun": "none",
         "minimum": 14,
         "players": 7,
-        "rounds": 10
-      },
-      "label": "15=none min=14 7p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.06977142857142858,
-        "std": 0.24860072708095332,
-        "ci95": [
-          0.05436299587065417,
-          0.08517986127220299
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.42104285714285605,
-        "std": 0.09723272796265939,
-        "ci95": [
-          0.41501631022677454,
-          0.42706940405893756
-        ]
-      },
-      "pushRate": 0.08774285714285714,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.0486,
-        "pocketAces": 0.004328571428571428,
-        "triple7": 0.0002,
-        "fiveCard": 0.017128571428571427,
-        "fiveCardBust": 0.018085714285714285
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 14,
-        "players": 7,
-        "rounds": 30
-      },
-      "label": "15=none min=14 7p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08443333333333335,
-        "std": 0.1357208827108371,
-        "ci95": [
-          0.07602126587120302,
-          0.09284540079546368
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.41416190476190423,
-        "std": 0.05329262318982704,
-        "ci95": [
-          0.410858793755311,
-          0.4174650157684975
-        ]
-      },
-      "pushRate": 0.08933809523809524,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04743809523809524,
-        "pocketAces": 0.004504761904761905,
-        "triple7": 0.0001619047619047619,
-        "fiveCard": 0.01621904761904762,
-        "fiveCardBust": 0.017914285714285716
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 14,
-        "players": 7,
-        "rounds": 50
-      },
-      "label": "15=none min=14 7p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08690857142857142,
-        "std": 0.11438288718867136,
-        "ci95": [
-          0.07981904663087043,
-          0.0939980962262724
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4141857142857127,
-        "std": 0.043768448746524066,
-        "ci95": [
-          0.4114729177269621,
-          0.41689851084446333
-        ]
-      },
-      "pushRate": 0.08911142857142858,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04827142857142857,
-        "pocketAces": 0.004488571428571429,
-        "triple7": 0.00018,
-        "fiveCard": 0.016045714285714285,
-        "fiveCardBust": 0.018454285714285715
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 14,
-        "players": 7,
-        "rounds": 70
-      },
-      "label": "15=none min=14 7p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08258367346938773,
-        "std": 0.09271000988623128,
-        "ci95": [
-          0.07683744752389825,
-          0.08832989941487722
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.41466734693877516,
-        "std": 0.03645958185016472,
-        "ci95": [
-          0.4124075586435716,
-          0.41692713523397873
-        ]
-      },
-      "pushRate": 0.08925102040816327,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.048091836734693874,
-        "pocketAces": 0.004377551020408163,
-        "triple7": 0.00019387755102040816,
-        "fiveCard": 0.016587755102040816,
-        "fiveCardBust": 0.018412244897959184
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 14,
-        "players": 7,
         "rounds": 100
       },
-      "label": "15=none min=14 7p 100r",
+      "label": "15=none min=14 7p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.0823557142857143,
         "std": 0.07746243341010084,
@@ -4584,6 +1120,14 @@
         "ci95": [
           0.412718404194675,
           0.4165158815196097
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.49620857142857244,
+        "std": 0.028334506174601398,
+        "ci95": [
+          0.4944523805411707,
+          0.4979647623159742
         ]
       },
       "pushRate": 0.08917428571428572,
@@ -4601,145 +1145,9 @@
         "fifteenRun": "none",
         "minimum": 14,
         "players": 10,
-        "rounds": 10
-      },
-      "label": "15=none min=14 10p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08910999999999997,
-        "std": 0.23612128485412134,
-        "ci95": [
-          0.0744750511419849,
-          0.10374494885801504
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4133799999999997,
-        "std": 0.09102450802427374,
-        "ci95": [
-          0.40773824254224134,
-          0.41902175745775805
-        ]
-      },
-      "pushRate": 0.08906,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.0469,
-        "pocketAces": 0.0047,
-        "triple7": 0.00019,
-        "fiveCard": 0.01566,
-        "fiveCardBust": 0.01923
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 14,
-        "players": 10,
-        "rounds": 30
-      },
-      "label": "15=none min=14 10p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08882333333333337,
-        "std": 0.1327153844634197,
-        "ci95": [
-          0.0805975485825265,
-          0.09704911808414023
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4113066666666669,
-        "std": 0.05052348981437269,
-        "ci95": [
-          0.40817518832485367,
-          0.4144381450084801
-        ]
-      },
-      "pushRate": 0.09003,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04815666666666667,
-        "pocketAces": 0.00439,
-        "triple7": 0.00022,
-        "fiveCard": 0.01638,
-        "fiveCardBust": 0.018196666666666667
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 14,
-        "players": 10,
-        "rounds": 50
-      },
-      "label": "15=none min=14 10p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.07979399999999993,
-        "std": 0.10277047890973032,
-        "ci95": [
-          0.07342421972421144,
-          0.08616378027578843
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4145520000000001,
-        "std": 0.039683322215536124,
-        "ci95": [
-          0.4120924022068604,
-          0.4170115977931398
-        ]
-      },
-      "pushRate": 0.08951,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.0483,
-        "pocketAces": 0.004622,
-        "triple7": 0.000174,
-        "fiveCard": 0.01645,
-        "fiveCardBust": 0.018306
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 14,
-        "players": 10,
-        "rounds": 70
-      },
-      "label": "15=none min=14 10p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08413857142857137,
-        "std": 0.09049793582526362,
-        "ci95": [
-          0.07852945125384035,
-          0.08974769160330238
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4144728571428571,
-        "std": 0.03464578782893754,
-        "ci95": [
-          0.41232548896579757,
-          0.4166202253199166
-        ]
-      },
-      "pushRate": 0.08906142857142857,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04783857142857143,
-        "pocketAces": 0.004527142857142857,
-        "triple7": 0.00015428571428571428,
-        "fiveCard": 0.016428571428571428,
-        "fiveCardBust": 0.018832857142857144
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 14,
-        "players": 10,
         "rounds": 100
       },
-      "label": "15=none min=14 10p 100r",
+      "label": "15=none min=14 10p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.08022899999999993,
         "std": 0.07294492114273976,
@@ -4754,6 +1162,14 @@
         "ci95": [
           0.4134226592158954,
           0.4169453407841034
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.4952030000000003,
+        "std": 0.02618586432582452,
+        "ci95": [
+          0.49357998331411307,
+          0.4968260166858875
         ]
       },
       "pushRate": 0.089613,
@@ -4771,145 +1187,9 @@
         "fifteenRun": "none",
         "minimum": 15,
         "players": 3,
-        "rounds": 10
-      },
-      "label": "15=none min=15 3p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.055733333333333294,
-        "std": 0.28149152292294227,
-        "ci95": [
-          0.03828630798579978,
-          0.07318035868086681
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.42493333333333305,
-        "std": 0.11214977988691809,
-        "ci95": [
-          0.4179822179601607,
-          0.4318844487065054
-        ]
-      },
-      "pushRate": 0.0881,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.0496,
-        "pocketAces": 0.004033333333333333,
-        "triple7": 0.00016666666666666666,
-        "fiveCard": 0.018133333333333335,
-        "fiveCardBust": 0.019433333333333334
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 15,
-        "players": 3,
-        "rounds": 30
-      },
-      "label": "15=none min=15 3p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08175555555555564,
-        "std": 0.15877853278805076,
-        "ci95": [
-          0.07191436013541631,
-          0.09159675097569496
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4147666666666662,
-        "std": 0.062470110748734695,
-        "ci95": [
-          0.4108947290879464,
-          0.41863860424538596
-        ]
-      },
-      "pushRate": 0.08885555555555555,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.048633333333333334,
-        "pocketAces": 0.004666666666666667,
-        "triple7": 0.00022222222222222223,
-        "fiveCard": 0.016266666666666665,
-        "fiveCardBust": 0.018966666666666666
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 15,
-        "players": 3,
-        "rounds": 50
-      },
-      "label": "15=none min=15 3p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.0862266666666667,
-        "std": 0.12211090462601669,
-        "ci95": [
-          0.07865815438573534,
-          0.09379517894759806
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4138133333333341,
-        "std": 0.04873340275975537,
-        "ci95": [
-          0.4107928057366513,
-          0.4168338609300169
-        ]
-      },
-      "pushRate": 0.08878,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04784,
-        "pocketAces": 0.004286666666666667,
-        "triple7": 0.00014666666666666666,
-        "fiveCard": 0.0167,
-        "fiveCardBust": 0.018206666666666666
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 15,
-        "players": 3,
-        "rounds": 70
-      },
-      "label": "15=none min=15 3p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08080952380952396,
-        "std": 0.10806398668153873,
-        "ci95": [
-          0.0741116485228694,
-          0.08750739909617851
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4152380952380945,
-        "std": 0.04272054540438563,
-        "ci95": [
-          0.4125902484013896,
-          0.41788594207479945
-        ]
-      },
-      "pushRate": 0.0895095238095238,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04787142857142857,
-        "pocketAces": 0.004580952380952381,
-        "triple7": 0.00021428571428571427,
-        "fiveCard": 0.016504761904761904,
-        "fiveCardBust": 0.01832857142857143
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 15,
-        "players": 3,
         "rounds": 100
       },
-      "label": "15=none min=15 3p 100r",
+      "label": "15=none min=15 3p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.08134666666666673,
         "std": 0.08538611355711401,
@@ -4924,6 +1204,14 @@
         "ci95": [
           0.4121223454482092,
           0.416350987885124
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.4957066666666665,
+        "std": 0.03273249888336994,
+        "ci95": [
+          0.4936778853670513,
+          0.4977354479662817
         ]
       },
       "pushRate": 0.09005666666666666,
@@ -4941,145 +1229,9 @@
         "fifteenRun": "none",
         "minimum": 15,
         "players": 5,
-        "rounds": 10
-      },
-      "label": "15=none min=15 5p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.07464,
-        "std": 0.2559092807226031,
-        "ci95": [
-          0.05877857845140661,
-          0.09050142154859339
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.41581999999999986,
-        "std": 0.10048395207506808,
-        "ci95": [
-          0.40959194012569244,
-          0.42204805987430727
-        ]
-      },
-      "pushRate": 0.0896,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04984,
-        "pocketAces": 0.00504,
-        "triple7": 0.00014,
-        "fiveCard": 0.01612,
-        "fiveCardBust": 0.01728
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 15,
-        "players": 5,
-        "rounds": 30
-      },
-      "label": "15=none min=15 5p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08145999999999994,
-        "std": 0.14563397760554012,
-        "ci95": [
-          0.0724335125507081,
-          0.09048648744929177
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.41650666666666714,
-        "std": 0.05725389037889976,
-        "ci95": [
-          0.4129580337760098,
-          0.42005529955732446
-        ]
-      },
-      "pushRate": 0.08922666666666666,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04716,
-        "pocketAces": 0.004533333333333334,
-        "triple7": 0.00016,
-        "fiveCard": 0.016266666666666665,
-        "fiveCardBust": 0.018293333333333335
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 15,
-        "players": 5,
-        "rounds": 50
-      },
-      "label": "15=none min=15 5p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08144000000000004,
-        "std": 0.11084304480020668,
-        "ci95": [
-          0.074569876906608,
-          0.08831012309339208
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4158759999999989,
-        "std": 0.04417565066993482,
-        "ci95": [
-          0.41313796480455495,
-          0.4186140351954429
-        ]
-      },
-      "pushRate": 0.088152,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.047696,
-        "pocketAces": 0.004584,
-        "triple7": 0.000136,
-        "fiveCard": 0.016336,
-        "fiveCardBust": 0.018644
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 15,
-        "players": 5,
-        "rounds": 70
-      },
-      "label": "15=none min=15 5p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.07723999999999988,
-        "std": 0.09293486254593337,
-        "ci95": [
-          0.07147983754227533,
-          0.08300016245772443
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4169114285714267,
-        "std": 0.037586526081313056,
-        "ci95": [
-          0.4145817915491214,
-          0.41924106559373203
-        ]
-      },
-      "pushRate": 0.08824,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04882857142857143,
-        "pocketAces": 0.00446,
-        "triple7": 0.00020285714285714286,
-        "fiveCard": 0.016362857142857144,
-        "fiveCardBust": 0.01858
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 15,
-        "players": 5,
         "rounds": 100
       },
-      "label": "15=none min=15 5p 100r",
+      "label": "15=none min=15 5p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.07886800000000001,
         "std": 0.07880381092698883,
@@ -5094,6 +1246,14 @@
         "ci95": [
           0.4145329328351109,
           0.4184430671648897
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.49508599999999964,
+        "std": 0.030014487726320958,
+        "ci95": [
+          0.4932256827772401,
+          0.49694631722275917
         ]
       },
       "pushRate": 0.088426,
@@ -5111,145 +1271,9 @@
         "fifteenRun": "none",
         "minimum": 15,
         "players": 7,
-        "rounds": 10
-      },
-      "label": "15=none min=15 7p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.0766142857142857,
-        "std": 0.2434478692210998,
-        "ci95": [
-          0.06152523045251755,
-          0.09170334097605386
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4177714285714273,
-        "std": 0.09427924005696016,
-        "ci95": [
-          0.41192794073229166,
-          0.4236149164105629
-        ]
-      },
-      "pushRate": 0.08922857142857143,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.0487,
-        "pocketAces": 0.004671428571428571,
-        "triple7": 0.0002,
-        "fiveCard": 0.0153,
-        "fiveCardBust": 0.0182
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 15,
-        "players": 7,
-        "rounds": 30
-      },
-      "label": "15=none min=15 7p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08560476190476193,
-        "std": 0.13413042970924993,
-        "ci95": [
-          0.07729127174096234,
-          0.09391825206856153
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4137619047619044,
-        "std": 0.05275378754575274,
-        "ci95": [
-          0.4104921911345384,
-          0.4170316183892704
-        ]
-      },
-      "pushRate": 0.08928095238095238,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04837142857142857,
-        "pocketAces": 0.004604761904761905,
-        "triple7": 0.0002,
-        "fiveCard": 0.016233333333333332,
-        "fiveCardBust": 0.018338095238095237
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 15,
-        "players": 7,
-        "rounds": 50
-      },
-      "label": "15=none min=15 7p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.07926285714285702,
-        "std": 0.1062037757560531,
-        "ci95": [
-          0.0726802789238786,
-          0.08584543536183545
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4160599999999978,
-        "std": 0.041990217359095326,
-        "ci95": [
-          0.4134574193645123,
-          0.41866258063548334
-        ]
-      },
-      "pushRate": 0.08890857142857143,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04882,
-        "pocketAces": 0.004434285714285714,
-        "triple7": 0.00015714285714285713,
-        "fiveCard": 0.016268571428571427,
-        "fiveCardBust": 0.018105714285714284
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 15,
-        "players": 7,
-        "rounds": 70
-      },
-      "label": "15=none min=15 7p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08108163265306116,
-        "std": 0.09295822844689124,
-        "ci95": [
-          0.07532002196179108,
-          0.08684324334433124
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.41551224489795874,
-        "std": 0.03620056384017679,
-        "ci95": [
-          0.4132685107053399,
-          0.4177559790905776
-        ]
-      },
-      "pushRate": 0.08835510204081633,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04792040816326531,
-        "pocketAces": 0.004614285714285714,
-        "triple7": 0.0001530612244897959,
-        "fiveCard": 0.01654081632653061,
-        "fiveCardBust": 0.01863061224489796
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 15,
-        "players": 7,
         "rounds": 100
       },
-      "label": "15=none min=15 7p 100r",
+      "label": "15=none min=15 7p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.08030714285714288,
         "std": 0.07693558299557922,
@@ -5264,6 +1288,14 @@
         "ci95": [
           0.4133018202970404,
           0.4170696082743876
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.496027142857143,
+        "std": 0.028722930194599955,
+        "ci95": [
+          0.4942468771995594,
+          0.4978074085147266
         ]
       },
       "pushRate": 0.08878714285714286,
@@ -5281,145 +1313,9 @@
         "fifteenRun": "none",
         "minimum": 15,
         "players": 10,
-        "rounds": 10
-      },
-      "label": "15=none min=15 10p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08192999999999998,
-        "std": 0.22485046771762068,
-        "ci95": [
-          0.06799362362553985,
-          0.0958663763744601
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.41680999999999974,
-        "std": 0.08787061593698518,
-        "ci95": [
-          0.4113637227990496,
-          0.4222562772009499
-        ]
-      },
-      "pushRate": 0.089,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04834,
-        "pocketAces": 0.00441,
-        "triple7": 0.00017,
-        "fiveCard": 0.01582,
-        "fiveCardBust": 0.01876
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 15,
-        "players": 10,
-        "rounds": 30
-      },
-      "label": "15=none min=15 10p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08045000000000005,
-        "std": 0.1344043063786599,
-        "ci95": [
-          0.07211953478436346,
-          0.08878046521563664
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.41452666666666715,
-        "std": 0.05127512483959648,
-        "ci95": [
-          0.4113486015033362,
-          0.4177047318299981
-        ]
-      },
-      "pushRate": 0.09060666666666667,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04780333333333334,
-        "pocketAces": 0.004633333333333333,
-        "triple7": 0.00021333333333333333,
-        "fiveCard": 0.016733333333333333,
-        "fiveCardBust": 0.018473333333333335
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 15,
-        "players": 10,
-        "rounds": 50
-      },
-      "label": "15=none min=15 10p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.07830199999999998,
-        "std": 0.10248484736750084,
-        "ci95": [
-          0.0719499233506141,
-          0.08465407664938586
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4157079999999993,
-        "std": 0.039805467102035315,
-        "ci95": [
-          0.41324083158836034,
-          0.41817516841163827
-        ]
-      },
-      "pushRate": 0.089762,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04804,
-        "pocketAces": 0.00442,
-        "triple7": 0.00019,
-        "fiveCard": 0.016422,
-        "fiveCardBust": 0.018234
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 15,
-        "players": 10,
-        "rounds": 70
-      },
-      "label": "15=none min=15 10p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08029857142857127,
-        "std": 0.08969143419331281,
-        "ci95": [
-          0.07473943874287496,
-          0.08585770411426759
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.41542428571428563,
-        "std": 0.035271118333889205,
-        "ci95": [
-          0.41323815915097994,
-          0.4176104122775913
-        ]
-      },
-      "pushRate": 0.08910285714285714,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.048094285714285714,
-        "pocketAces": 0.004522857142857143,
-        "triple7": 0.00017285714285714287,
-        "fiveCard": 0.016441428571428572,
-        "fiveCardBust": 0.018315714285714286
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 15,
-        "players": 10,
         "rounds": 100
       },
-      "label": "15=none min=15 10p 100r",
+      "label": "15=none min=15 10p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.08069399999999997,
         "std": 0.0707606771974198,
@@ -5434,6 +1330,14 @@
         "ci95": [
           0.4140365374215888,
           0.4174714625784111
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.49505399999999944,
+        "std": 0.02527979731232338,
+        "ci95": [
+          0.4934871419294303,
+          0.4966208580705686
         ]
       },
       "pushRate": 0.089192,
@@ -5451,145 +1355,9 @@
         "fifteenRun": "none",
         "minimum": 16,
         "players": 3,
-        "rounds": 10
-      },
-      "label": "15=none min=16 3p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.07116666666666668,
-        "std": 0.28252160509638014,
-        "ci95": [
-          0.05365579616456725,
-          0.08867753716876611
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.42123333333333307,
-        "std": 0.11211374949648018,
-        "ci95": [
-          0.4142844511468966,
-          0.42818221551976954
-        ]
-      },
-      "pushRate": 0.08863333333333333,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.0451,
-        "pocketAces": 0.0048,
-        "triple7": 0.00013333333333333334,
-        "fiveCard": 0.0173,
-        "fiveCardBust": 0.017833333333333333
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 16,
-        "players": 3,
-        "rounds": 30
-      },
-      "label": "15=none min=16 3p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08204444444444452,
-        "std": 0.15876401958614472,
-        "ci95": [
-          0.07220414856187883,
-          0.0918847403270102
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4150555555555552,
-        "std": 0.06404685900414202,
-        "ci95": [
-          0.4110858901074732,
-          0.41902522100363715
-        ]
-      },
-      "pushRate": 0.0888111111111111,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.047844444444444446,
-        "pocketAces": 0.004633333333333333,
-        "triple7": 0.00018888888888888888,
-        "fiveCard": 0.016188888888888888,
-        "fiveCardBust": 0.01841111111111111
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 16,
-        "players": 3,
-        "rounds": 50
-      },
-      "label": "15=none min=16 3p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08307999999999985,
-        "std": 0.12443060054556465,
-        "ci95": [
-          0.07536771147640699,
-          0.09079228852359271
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4141533333333338,
-        "std": 0.048369187396528644,
-        "ci95": [
-          0.4111553800387408,
-          0.41715128662792683
-        ]
-      },
-      "pushRate": 0.08908666666666666,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04785333333333333,
-        "pocketAces": 0.00454,
-        "triple7": 0.00019333333333333333,
-        "fiveCard": 0.01634,
-        "fiveCardBust": 0.018513333333333333
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 16,
-        "players": 3,
-        "rounds": 70
-      },
-      "label": "15=none min=16 3p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08340000000000002,
-        "std": 0.1046602174087501,
-        "ci95": [
-          0.07691309251856691,
-          0.08988690748143312
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.41388095238095163,
-        "std": 0.04156462688124286,
-        "ci95": [
-          0.41130475011657175,
-          0.4164571546453315
-        ]
-      },
-      "pushRate": 0.08943333333333334,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.047985714285714284,
-        "pocketAces": 0.004214285714285715,
-        "triple7": 0.00014761904761904763,
-        "fiveCard": 0.016261904761904762,
-        "fiveCardBust": 0.01827142857142857
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 16,
-        "players": 3,
         "rounds": 100
       },
-      "label": "15=none min=16 3p 100r",
+      "label": "15=none min=16 3p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.0773033333333333,
         "std": 0.08941252913900659,
@@ -5604,6 +1372,14 @@
         "ci95": [
           0.41419797947526266,
           0.41852202052473914
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.49477333333333373,
+        "std": 0.035032656484395894,
+        "ci95": [
+          0.49260198678858536,
+          0.4969446798780821
         ]
       },
       "pushRate": 0.08886666666666666,
@@ -5621,145 +1397,9 @@
         "fifteenRun": "none",
         "minimum": 16,
         "players": 5,
-        "rounds": 10
-      },
-      "label": "15=none min=16 5p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.09249999999999985,
-        "std": 0.256375268460665,
-        "ci95": [
-          0.07660969623217234,
-          0.10839030376782735
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4102999999999991,
-        "std": 0.1008785729800262,
-        "ci95": [
-          0.40404748126860085,
-          0.41655251873139737
-        ]
-      },
-      "pushRate": 0.09082,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04792,
-        "pocketAces": 0.00438,
-        "triple7": 0.00014,
-        "fiveCard": 0.01572,
-        "fiveCardBust": 0.0181
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 16,
-        "players": 5,
-        "rounds": 30
-      },
-      "label": "15=none min=16 5p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08974000000000011,
-        "std": 0.1466485381765015,
-        "ci95": [
-          0.08065062943503086,
-          0.09882937056496936
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4127666666666669,
-        "std": 0.05646848502405583,
-        "ci95": [
-          0.40926671370424245,
-          0.41626661962909134
-        ]
-      },
-      "pushRate": 0.08934666666666667,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04802666666666667,
-        "pocketAces": 0.004693333333333333,
-        "triple7": 0.00016666666666666666,
-        "fiveCard": 0.01626,
-        "fiveCardBust": 0.018153333333333334
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 16,
-        "players": 5,
-        "rounds": 50
-      },
-      "label": "15=none min=16 5p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.07723999999999995,
-        "std": 0.11215075653865283,
-        "ci95": [
-          0.07028882409332592,
-          0.08419117590667398
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4172959999999983,
-        "std": 0.04419757696763261,
-        "ci95": [
-          0.41455660579854325,
-          0.4200353942014533
-        ]
-      },
-      "pushRate": 0.089936,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.048136,
-        "pocketAces": 0.004232,
-        "triple7": 0.000196,
-        "fiveCard": 0.016092,
-        "fiveCardBust": 0.01828
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 16,
-        "players": 5,
-        "rounds": 70
-      },
-      "label": "15=none min=16 5p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.07847142857142851,
-        "std": 0.09720108175937726,
-        "ci95": [
-          0.07244684310734768,
-          0.08449601403550934
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.41586857142856964,
-        "std": 0.038506688814422825,
-        "ci95": [
-          0.4134819021291935,
-          0.4182552407279458
-        ]
-      },
-      "pushRate": 0.08990571428571428,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04870857142857143,
-        "pocketAces": 0.0044742857142857145,
-        "triple7": 0.00013142857142857143,
-        "fiveCard": 0.016397142857142857,
-        "fiveCardBust": 0.018257142857142857
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 16,
-        "players": 5,
         "rounds": 100
       },
-      "label": "15=none min=16 5p 100r",
+      "label": "15=none min=16 5p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.08315599999999992,
         "std": 0.07759528782530999,
@@ -5774,6 +1414,14 @@
         "ci95": [
           0.41271093555016247,
           0.4165290644498376
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.49641799999999986,
+        "std": 0.029626525395445975,
+        "ci95": [
+          0.4945817289316338,
+          0.4982542710683659
         ]
       },
       "pushRate": 0.088962,
@@ -5791,145 +1439,9 @@
         "fifteenRun": "none",
         "minimum": 16,
         "players": 7,
-        "rounds": 10
-      },
-      "label": "15=none min=16 7p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.09272857142857145,
-        "std": 0.24468943093539805,
-        "ci95": [
-          0.07756256337449552,
-          0.10789457948264738
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4109285714285708,
-        "std": 0.09468066705737088,
-        "ci95": [
-          0.40506020288617767,
-          0.41679693997096395
-        ]
-      },
-      "pushRate": 0.09002857142857143,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04831428571428571,
-        "pocketAces": 0.004571428571428572,
-        "triple7": 0.00017142857142857143,
-        "fiveCard": 0.016671428571428573,
-        "fiveCardBust": 0.017628571428571427
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 16,
-        "players": 7,
-        "rounds": 30
-      },
-      "label": "15=none min=16 7p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08483809523809539,
-        "std": 0.13530544160718333,
-        "ci95": [
-          0.07645177708234058,
-          0.09322441339385021
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4138714285714284,
-        "std": 0.054076117804130505,
-        "ci95": [
-          0.41051975606552793,
-          0.41722310107732885
-        ]
-      },
-      "pushRate": 0.08937619047619047,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04836190476190476,
-        "pocketAces": 0.004319047619047619,
-        "triple7": 0.0001380952380952381,
-        "fiveCard": 0.016233333333333332,
-        "fiveCardBust": 0.01861904761904762
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 16,
-        "players": 7,
-        "rounds": 50
-      },
-      "label": "15=none min=16 7p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08022000000000006,
-        "std": 0.10969646998774682,
-        "ci95": [
-          0.07342094234974503,
-          0.08701905765025508
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4149628571428552,
-        "std": 0.04287466451490232,
-        "ci95": [
-          0.41230545790471446,
-          0.4176202563809959
-        ]
-      },
-      "pushRate": 0.08938,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04875714285714286,
-        "pocketAces": 0.004425714285714285,
-        "triple7": 0.00016571428571428572,
-        "fiveCard": 0.016322857142857142,
-        "fiveCardBust": 0.018465714285714287
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 16,
-        "players": 7,
-        "rounds": 70
-      },
-      "label": "15=none min=16 7p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08432040816326525,
-        "std": 0.0920583108016221,
-        "ci95": [
-          0.07861457494552143,
-          0.09002624138100906
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.4143918367346941,
-        "std": 0.03578003712320019,
-        "ci95": [
-          0.41217416705803017,
-          0.416609506411358
-        ]
-      },
-      "pushRate": 0.08920816326530612,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04817142857142857,
-        "pocketAces": 0.004524489795918367,
-        "triple7": 0.00017755102040816327,
-        "fiveCard": 0.016206122448979593,
-        "fiveCardBust": 0.018442857142857143
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 16,
-        "players": 7,
         "rounds": 100
       },
-      "label": "15=none min=16 7p 100r",
+      "label": "15=none min=16 7p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.07899571428571428,
         "std": 0.07646995062943106,
@@ -5944,6 +1456,14 @@
         "ci95": [
           0.41392166973096134,
           0.4176497588404662
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.4947628571428564,
+        "std": 0.02822413133020124,
+        "ci95": [
+          0.4930135073591866,
+          0.4965122069265262
         ]
       },
       "pushRate": 0.08945142857142857,
@@ -5961,145 +1481,9 @@
         "fifteenRun": "none",
         "minimum": 16,
         "players": 10,
-        "rounds": 10
-      },
-      "label": "15=none min=16 10p 10r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08531999999999991,
-        "std": 0.23063670759636457,
-        "ci95": [
-          0.0710249887622832,
-          0.09961501123771661
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.41159000000000007,
-        "std": 0.08961474601148348,
-        "ci95": [
-          0.40603562049705805,
-          0.4171443795029421
-        ]
-      },
-      "pushRate": 0.0914,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04964,
-        "pocketAces": 0.00423,
-        "triple7": 0.00016,
-        "fiveCard": 0.01663,
-        "fiveCardBust": 0.01791
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 16,
-        "players": 10,
-        "rounds": 30
-      },
-      "label": "15=none min=16 10p 30r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.07962333333333348,
-        "std": 0.12749209614334314,
-        "ci95": [
-          0.07172129134668366,
-          0.08752537531998329
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.415473333333334,
-        "std": 0.05079786457389218,
-        "ci95": [
-          0.412324849067739,
-          0.4186218175989291
-        ]
-      },
-      "pushRate": 0.08996,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04882333333333334,
-        "pocketAces": 0.004456666666666667,
-        "triple7": 0.00012,
-        "fiveCard": 0.016053333333333333,
-        "fiveCardBust": 0.01862
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 16,
-        "players": 10,
-        "rounds": 50
-      },
-      "label": "15=none min=16 10p 50r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.08025399999999998,
-        "std": 0.10395584785043263,
-        "ci95": [
-          0.07381074979609477,
-          0.08669725020390519
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.41599600000000014,
-        "std": 0.0399801750671304,
-        "ci95": [
-          0.4135180030764978,
-          0.4184739969235025
-        ]
-      },
-      "pushRate": 0.088798,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.048312,
-        "pocketAces": 0.00452,
-        "triple7": 0.000138,
-        "fiveCard": 0.016284,
-        "fiveCardBust": 0.01842
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 16,
-        "players": 10,
-        "rounds": 70
-      },
-      "label": "15=none min=16 10p 70r",
-      "bankerUnitsPerRoundPerPlayer": {
-        "mean": 0.07767999999999999,
-        "std": 0.08729041647652612,
-        "ci95": [
-          0.07226968393417794,
-          0.08309031606582203
-        ]
-      },
-      "playerWinRate": {
-        "mean": 0.41646285714285697,
-        "std": 0.033427501477045124,
-        "ci95": [
-          0.4143909991361973,
-          0.4185347151495166
-        ]
-      },
-      "pushRate": 0.08910285714285714,
-      "pushedRoundRate": 0,
-      "specialRates": {
-        "blackjack": 0.04833428571428571,
-        "pocketAces": 0.004482857142857143,
-        "triple7": 0.00018428571428571428,
-        "fiveCard": 0.016235714285714287,
-        "fiveCardBust": 0.01841
-      }
-    },
-    {
-      "config": {
-        "fifteenRun": "none",
-        "minimum": 16,
-        "players": 10,
         "rounds": 100
       },
-      "label": "15=none min=16 10p 100r",
+      "label": "15=none min=16 10p",
       "bankerUnitsPerRoundPerPlayer": {
         "mean": 0.07962399999999996,
         "std": 0.07579112691416402,
@@ -6114,6 +1498,14 @@
         "ci95": [
           0.4139718966333465,
           0.41759410336665276
+        ]
+      },
+      "bankerWinRate": {
+        "mean": 0.494922,
+        "std": 0.02735364944825714,
+        "ci95": [
+          0.4932266032423437,
+          0.49661739675765626
         ]
       },
       "pushRate": 0.089295,

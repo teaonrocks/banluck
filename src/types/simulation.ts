@@ -1,11 +1,12 @@
 export type FifteenRun = 'both' | 'banker_only' | 'none'
 export type Minimum = 14 | 15 | 16
+export type Advantage = 'banker' | 'player'
 
 export interface SimConfig {
   fifteenRun: FifteenRun
   minimum: Minimum
   players: 3 | 5 | 7 | 10
-  rounds: 10 | 30 | 50 | 70 | 100
+  rounds: 100
 }
 
 export interface StatSummary {
@@ -19,6 +20,7 @@ export interface ConfigResult {
   label: string
   bankerUnitsPerRoundPerPlayer: StatSummary
   playerWinRate: StatSummary
+  bankerWinRate: StatSummary
   pushRate: number
   pushedRoundRate: number
   specialRates: {
@@ -41,8 +43,8 @@ export interface SimOutput {
 }
 
 export interface SimulationFilters {
+  advantage: Advantage | ''
   fifteenRun: FifteenRun | ''
   minimum: Minimum | ''
   players: SimConfig['players'] | ''
-  rounds: SimConfig['rounds'] | ''
 }

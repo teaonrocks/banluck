@@ -5,6 +5,7 @@ import { SectionSpecialHands } from './components/sections/SectionSpecialHands'
 import { SectionHouseRules } from './components/sections/SectionHouseRules'
 import { SectionHowToPlay } from './components/sections/SectionHowToPlay'
 import { SectionSimulation } from './components/sections/SectionSimulation'
+import { SectionAssumptions } from './components/sections/SectionAssumptions'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <SectionSpecialHands />
         <SectionHouseRules />
         <SectionHowToPlay />
+        <SectionAssumptions />
         <SectionSimulation />
       </MainLayout>
     </RulesetProvider>

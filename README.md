@@ -10,6 +10,7 @@ A visual guide to **Banluck** (廿一點) — a Chinese blackjack-style card gam
 | **House rules** | Options that change play (15-run rules, minimum totals, player count) |
 | **How to play** | Step-by-step round flow |
 | **Simulation** | Filterable results from precomputed runs — banker vs player edge, win rates, and special-hand frequencies |
+| **Assumptions** | Fixed player and banker hit/stand behavior used in the simulation |
 
 Ruleset presets (standard, no 15 run, banker 15 only, all combos) sync across sections via shared context.
 
@@ -67,6 +68,7 @@ After changing house rules or simulation logic, run `pnpm sim` and commit the up
 
 ```
 sim/                # Monte Carlo engine (Node-only, not bundled)
+│   RULES.md        # Full rule assumptions (source of truth for the engine)
 src/
 ├── components/     # UI, layout, and page sections
 ├── context/        # Ruleset preset state

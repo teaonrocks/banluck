@@ -10,7 +10,8 @@ export const NAV_SECTIONS: NavSection[] = [
   { id: 'special-hands', number: '01', title: 'What are the special hands?' },
   { id: 'house-rules', number: '02', title: 'What house rules matter?' },
   { id: 'how-to-play', number: '03', title: 'How does a round work?' },
-  { id: 'simulation', number: '04', title: 'Who has the advantage?' },
+  { id: 'assumptions', number: '04', title: 'How do players and banker play?' },
+  { id: 'simulation', number: '05', title: 'Who has the advantage?' },
 ]
 
 export interface RulesetPreset {

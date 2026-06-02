@@ -49,7 +49,7 @@ export function SectionSimulation() {
   return (
     <section id="simulation" className="py-16 max-[900px]:py-10">
       <SectionHeader
-        number="04"
+        number="05"
         label="Simulation"
         title="Who has the advantage?"
         intro="We ran thousands of imaginary game nights — 100 rounds per session — for each rule combination. Here is what the numbers say about banker vs player advantage."

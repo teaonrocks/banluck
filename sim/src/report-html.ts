@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { renderAssumptionsHtml } from '../../src/data/assumptions.js';
 import type { ConfigResult, SimOutput } from './simulate.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -141,7 +142,22 @@ export function generateHtml(output: SimOutput): string {
       padding: 1rem;
     }
     details summary { cursor: pointer; font-weight: 600; }
-    details ul { margin: 0.5rem 0 0; padding-left: 1.25rem; color: var(--muted); font-size: 0.9rem; }
+    details.assumptions .assumptions-body {
+      margin-top: 0.75rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    details.assumptions h3 {
+      margin: 1rem 0 0.35rem;
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+    details.assumptions h3:first-child { margin-top: 0; }
+    details.assumptions ul {
+      margin: 0 0 0.5rem;
+      padding-left: 1.25rem;
+    }
+    details.assumptions li { margin-bottom: 0.35rem; }
     #count { color: var(--muted); font-size: 0.9rem; margin-bottom: 0.5rem; }
   </style>
 </head>
@@ -214,17 +230,11 @@ export function generateHtml(output: SimOutput): string {
     </table>
   </div>
 
-  <details>
-    <summary>Rules assumptions</summary>
-    <ul>
-      <li>Blackjack (2-card 21): 2× · Pocket aces: 3× · Triple 7 (exactly 3×7): 7×</li>
-      <li>5 cards without bust: 2× · 5th card bust: lose 2×</li>
-      <li>Minimum = stand gate (total must be &gt; minimum before standing)</li>
-      <li>Stand hard ≥17; hit hard 16 until 5 cards or bust</li>
-      <li>Banker soft 17: open players with 3+ cards before hitting</li>
-      <li>Banker open: wins vs bust or lower total before each hit</li>
-      <li>15 run: player 15 = push own hand only; banker 15 = all remaining players push</li>
-    </ul>
+  <details class="assumptions">
+    <summary>Simulation assumptions</summary>
+    <div class="assumptions-body">
+      ${renderAssumptionsHtml(escapeHtml)}
+    </div>
   </details>
 
   <script>

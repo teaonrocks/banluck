@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react'
+import { Footer } from './Footer'
 import { Sidebar } from './Sidebar'
 
 interface MainLayoutProps {
@@ -12,6 +13,7 @@ export function MainLayout({ children }: MainLayoutProps) {
       <main className="min-w-0 flex-1 overflow-x-clip max-[900px]:ml-0 ml-[var(--sidebar-width)]">
         <div className="mx-auto w-full max-w-5xl overflow-visible px-4 sm:px-6 md:px-10 lg:px-12">
           {children}
+          <Footer />
         </div>
       </main>
     </div>

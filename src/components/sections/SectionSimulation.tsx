@@ -47,7 +47,7 @@ export function SectionSimulation() {
   const bestPlayer = byPlayer.slice(0, 5)
 
   return (
-    <section id="simulation" className="border-b border-border py-16 max-[900px]:py-10">
+    <section id="simulation" className="py-16 max-[900px]:py-10">
       <SectionHeader
         number="04"
         label="Simulation"

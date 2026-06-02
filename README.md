@@ -1,75 +1,81 @@
-# React + TypeScript + Vite
+# Learn Banluck
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A visual guide to **Banluck** (廿一點) — a Chinese blackjack-style card game. The site explains special hands, house rules, round flow, and Monte Carlo simulation results in plain language, with bilingual labels where helpful.
 
-Currently, two official plugins are available:
+## What’s on the site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+| Section | Topic |
+| --- | --- |
+| **Special hands** | The five premium hands (blackjack, pocket aces, triple 7s, five-card, five-card bust) with payouts and examples |
+| **House rules** | Options that change play (15-run rules, minimum totals, player count) |
+| **How to play** | Step-by-step round flow |
+| **Simulation** | Filterable results from precomputed runs — banker vs player edge, win rates, and special-hand frequencies |
 
-## React Compiler
+Ruleset presets (standard, no 15 run, banker 15 only, all combos) sync across sections via shared context.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Tech stack
 
-Note: This will impact Vite dev & build performances.
+- [React 19](https://react.dev) + [TypeScript](https://www.typescriptlang.org)
+- [Vite 8](https://vite.dev) with the React Compiler enabled
+- [Tailwind CSS 4](https://tailwindcss.com)
+- [Radix UI](https://www.radix-ui.com) and shadcn-style components
 
-## Expanding the ESLint configuration
+## Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- [Node.js](https://nodejs.org) (LTS recommended)
+- [pnpm](https://pnpm.io)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Getting started
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+pnpm install
+pnpm dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Open the URL Vite prints (usually `http://localhost:5173`).
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Other scripts
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+| Command | Description |
+| --- | --- |
+| `pnpm build` | Type-check and production build to `dist/` |
+| `pnpm build:with-sim` | Re-run simulation, then build (slow — ~minutes at default trials) |
+| `pnpm preview` | Serve the production build locally |
+| `pnpm lint` | Run ESLint |
+| `pnpm sim` | Run Monte Carlo simulation and write `src/data/results.json` |
+| `pnpm sim:report` | Regenerate standalone HTML report from existing results |
+| `pnpm sim:test` | Run simulation unit tests |
+
+## Simulation data
+
+The Monte Carlo engine lives in `sim/` — separate from the Vite app and not bundled into the site. Results are written to `src/data/results.json`, which the React app imports at build time.
+
+```bash
+# Default: 1000 trials × 36 rule configs
+pnpm sim
+
+# Fewer trials for a quick check
+pnpm sim -- --trials 100
+
+# Regenerate the standalone HTML table (written to sim/results.html)
+pnpm sim:report
 ```
+
+After changing house rules or simulation logic, run `pnpm sim` and commit the updated `results.json` if you want the site to reflect new numbers. Use `pnpm build:with-sim` when you want fresh data as part of a production build.
+
+## Project layout
+
+```
+sim/                # Monte Carlo engine (Node-only, not bundled)
+src/
+├── components/     # UI, layout, and page sections
+├── context/        # Ruleset preset state
+├── data/           # Static copy + simulation results
+├── hooks/          # Scroll spy, filters, ruleset helpers
+└── types/          # Simulation result types
+public/             # Favicon and static assets
+```
+
+## License
+
+Private project — not published to npm (`"private": true` in `package.json`).

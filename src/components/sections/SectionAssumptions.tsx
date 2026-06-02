@@ -31,22 +31,22 @@ export function SectionAssumptions() {
         intro="The simulation uses fixed hit/stand logic for everyone — not human judgment. Real tables may play differently."
       />
 
-      <div className="grid gap-5 sm:grid-cols-2">
-        <Card>
+      <div className="grid gap-6 sm:grid-cols-2">
+        <Card className="h-full">
           <CardHeader>
             <CardTitle>Players</CardTitle>
             <CardDescription>Every player seat uses the same rules.</CardDescription>
           </CardHeader>
-          <CardContent className="pt-0">
+          <CardContent>
             <BehaviorList items={PLAYER_BEHAVIOR} />
           </CardContent>
         </Card>
-        <Card>
+        <Card className="h-full">
           <CardHeader>
             <CardTitle>Banker</CardTitle>
             <CardDescription>Same basics, plus early settlement.</CardDescription>
           </CardHeader>
-          <CardContent className="pt-0">
+          <CardContent>
             <BehaviorList items={BANKER_BEHAVIOR} />
           </CardContent>
         </Card>

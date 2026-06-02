@@ -56,7 +56,7 @@ export function SectionSimulation() {
       />
 
       <Card className="mb-8">
-        <CardContent className="pt-5 text-sm">
+        <CardContent className="py-6 text-sm leading-relaxed">
           <strong className="font-serif">Banker edge</strong> — on average, how many bet units the
           banker wins per hand, per player. A positive number means the banker comes out ahead over
           time.{' '}
@@ -70,14 +70,14 @@ export function SectionSimulation() {
         </CardContent>
       </Card>
 
-      <div className="mb-8 grid gap-5 lg:grid-cols-2">
-        <Card>
+      <div className="mb-8 grid gap-6 lg:grid-cols-2">
+        <Card className="h-full">
           <CardHeader>
             <CardTitle className="text-destructive">Best for the banker</CardTitle>
             <CardDescription>Highest banker edge in the current filter</CardDescription>
           </CardHeader>
-          <CardContent className="pt-0">
-            <ol className="list-decimal space-y-2 pl-5 text-sm">
+          <CardContent>
+            <ol className="list-decimal space-y-3 pl-5 text-sm leading-relaxed">
               {bestBanker.map((r) => (
                 <li key={r.label}>
                   <strong className="text-destructive">{formatConfigLabel(r.config)}</strong>
@@ -89,13 +89,13 @@ export function SectionSimulation() {
             </ol>
           </CardContent>
         </Card>
-        <Card>
+        <Card className="h-full">
           <CardHeader>
             <CardTitle>Best for players</CardTitle>
             <CardDescription>Lowest banker edge in the current filter</CardDescription>
           </CardHeader>
-          <CardContent className="pt-0">
-            <ol className="list-decimal space-y-2 pl-5 text-sm">
+          <CardContent>
+            <ol className="list-decimal space-y-3 pl-5 text-sm leading-relaxed">
               {bestPlayer.map((r) => (
                 <li key={r.label}>
                   <strong>{formatConfigLabel(r.config)}</strong>

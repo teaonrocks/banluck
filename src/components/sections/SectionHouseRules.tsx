@@ -23,15 +23,17 @@ export function SectionHouseRules() {
         Opening with exactly 15 on your first two cards is awkward — some tables treat it as a
         special push (no win, no loss).
       </p>
-      <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {FIFTEEN_RUN_OPTIONS.map((opt) => (
-          <Card key={opt.id}>
+          <Card key={opt.id} className="h-full">
             <CardHeader>
               <CardTitle>{opt.title}</CardTitle>
               <CardDescription>{opt.description}</CardDescription>
             </CardHeader>
-            <CardContent className="pt-0">
-              <p className="rounded-lg bg-background p-3 text-sm leading-relaxed">{opt.example}</p>
+            <CardContent>
+              <p className="rounded-lg border border-border/60 bg-muted/30 p-4 text-sm leading-relaxed">
+                {opt.example}
+              </p>
             </CardContent>
           </Card>
         ))}
@@ -42,20 +44,20 @@ export function SectionHouseRules() {
         Before you are allowed to stand, your total must be above a house minimum. Lower minimums
         give players more freedom; higher minimums force riskier hits.
       </p>
-      <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {MINIMUM_OPTIONS.map((opt) => (
-          <Card key={opt.value}>
-            <CardContent className="space-y-1.5">
+          <Card key={opt.value} className="h-full">
+            <CardHeader className="pb-6">
               <CardTitle>{opt.title}</CardTitle>
-              <CardDescription className="leading-relaxed">{opt.description}</CardDescription>
-            </CardContent>
+              <CardDescription>{opt.description}</CardDescription>
+            </CardHeader>
           </Card>
         ))}
       </div>
 
       <Card className="mt-8 flex-row overflow-hidden">
         <div className="w-[3px] shrink-0 bg-destructive" aria-hidden="true" />
-        <CardContent className="flex-1">
+        <CardContent className="py-6">
           <p className="text-sm leading-relaxed text-muted-foreground">
             Real tables differ — these are the rules encoded in this simulation. Check with your
             host before betting.

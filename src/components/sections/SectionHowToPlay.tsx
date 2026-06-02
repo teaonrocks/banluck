@@ -19,16 +19,16 @@ export function SectionHowToPlay() {
         intro="Banluck is like blackjack at a family gathering — one banker, several players, and house rules that make every table a little different."
       />
 
-      <div className="mt-6 grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
+      <div className="mt-6 grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
         {ROUND_STEPS.map((step) => (
-          <Card key={step.step}>
+          <Card key={step.step} className="h-full">
             <CardHeader>
-              <Badge variant="destructive" className="mb-1 w-fit normal-case tracking-normal">
+              <Badge variant="destructive" className="w-fit normal-case tracking-normal">
                 Step {step.step}
               </Badge>
               <CardTitle>{step.title}</CardTitle>
             </CardHeader>
-            <CardContent className="pt-0">
+            <CardContent>
               <CardDescription>{step.body}</CardDescription>
             </CardContent>
           </Card>

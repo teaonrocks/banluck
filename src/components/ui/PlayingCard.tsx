@@ -12,7 +12,7 @@ interface PlayingCardProps {
 export function PlayingCard({ card, selected, interactive, onSelect }: PlayingCardProps) {
   const red = isRedSuit(card.suit)
   const className = cn(
-    'flex h-[100px] w-[72px] flex-col items-center justify-center gap-0.5 rounded-lg border border-border bg-card shadow-sm transition-all max-[900px]:h-[76px] max-[900px]:w-[52px] max-[480px]:h-[68px] max-[480px]:w-[46px]',
+    'flex h-[104px] w-[76px] flex-col items-center justify-center gap-1 rounded-lg border border-border bg-card shadow-sm transition-all max-[900px]:h-[80px] max-[900px]:w-[56px] max-[480px]:h-[72px] max-[480px]:w-[50px]',
     red ? 'text-destructive' : 'text-foreground',
     interactive && 'cursor-pointer hover:-translate-y-0.5 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/40',
     selected && 'ring-2 ring-foreground ring-offset-2',
@@ -58,7 +58,7 @@ export function HandDisplay({
   return (
     <div
       className={cn(
-        'flex cursor-pointer gap-2 rounded-[10px] border border-transparent p-3 transition-colors max-[900px]:gap-1.5 max-[900px]:p-2 max-[480px]:-mx-2 max-[480px]:overflow-x-auto max-[480px]:px-2',
+        'flex cursor-pointer gap-3 rounded-xl border border-transparent p-4 transition-colors max-[900px]:gap-2.5 max-[900px]:p-3 max-[480px]:-mx-2 max-[480px]:overflow-x-auto max-[480px]:px-2',
         selected && 'border-border bg-accent',
         !selected && 'hover:border-border hover:bg-accent',
       )}

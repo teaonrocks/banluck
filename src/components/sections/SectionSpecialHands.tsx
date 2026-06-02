@@ -50,7 +50,7 @@ export function SectionSpecialHands() {
           )}
         </div>
 
-        <div className="order-1 flex flex-col gap-2 lg:order-2">
+        <div className="order-1 flex flex-col gap-3 lg:order-2">
           {SPECIAL_HANDS.map((hand) => (
             <HandDisplay
               key={hand.id}

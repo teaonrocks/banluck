@@ -36,7 +36,6 @@ import {
   TableRow,
 } from '@/components/ui/table'
 import type { Advantage, FifteenRun, Minimum, SimConfig } from '@/types/simulation'
-import { cn } from '@/lib/utils'
 
 export function SectionSimulation() {
   const { meta, results, filters } = useRuleset()
@@ -199,39 +198,31 @@ export function SectionSimulation() {
             {meta.trials.toLocaleString()} trials each · 100 rounds per session · seed {meta.seed}
           </p>
 
-          <div className="max-h-[60vh] overflow-auto rounded-xl border border-border max-[900px]:-mx-1">
-            <Table className="min-w-[640px]">
+          <div className="overflow-hidden rounded-xl border border-border bg-card max-[900px]:-mx-1">
+            <Table className="min-w-[640px]" containerClassName="max-h-[60vh] overflow-auto">
               <TableHeader>
-                <TableRow>
-                  <TableHead>Configuration</TableHead>
+                <TableRow className="border-0">
+                  <TableHead className="left-0 z-20 rounded-tl-xl">Configuration</TableHead>
                   <TableHead>Banker advantage</TableHead>
                   <TableHead>Player win rate</TableHead>
                   <TableHead>Banker win rate</TableHead>
                   <TableHead>Push rate</TableHead>
-                  <TableHead>15-push rounds</TableHead>
+                  <TableHead className="rounded-tr-xl">15-push rounds</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
-                {sortedFiltered.map((r) => {
-                  const bankerFavored = r.bankerUnitsPerRoundPerPlayer.mean > 0
-                  return (
-                    <TableRow key={r.label}>
-                      <TableCell
-                        className={cn(
-                          'whitespace-normal',
-                          bankerFavored && 'border-l-[3px] border-l-destructive',
-                        )}
-                      >
-                        {formatConfigLabel(r.config)}
-                      </TableCell>
-                      <TableCell>{fmtNum(r.bankerUnitsPerRoundPerPlayer.mean)}</TableCell>
-                      <TableCell>{fmtPct(r.playerWinRate.mean)}</TableCell>
-                      <TableCell>{fmtPct(r.bankerWinRate.mean)}</TableCell>
-                      <TableCell>{fmtPct(r.pushRate)}</TableCell>
-                      <TableCell>{fmtPct(r.pushedRoundRate)}</TableCell>
-                    </TableRow>
-                  )
-                })}
+                {sortedFiltered.map((r) => (
+                  <TableRow key={r.label}>
+                    <TableCell className="sticky left-0 z-[1] bg-card whitespace-normal">
+                      {formatConfigLabel(r.config)}
+                    </TableCell>
+                    <TableCell>{fmtNum(r.bankerUnitsPerRoundPerPlayer.mean)}</TableCell>
+                    <TableCell>{fmtPct(r.playerWinRate.mean)}</TableCell>
+                    <TableCell>{fmtPct(r.bankerWinRate.mean)}</TableCell>
+                    <TableCell>{fmtPct(r.pushRate)}</TableCell>
+                    <TableCell>{fmtPct(r.pushedRoundRate)}</TableCell>
+                  </TableRow>
+                ))}
               </TableBody>
             </Table>
           </div>

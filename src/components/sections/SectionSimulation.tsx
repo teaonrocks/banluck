@@ -40,7 +40,7 @@ import { cn } from '@/lib/utils'
 
 export function SectionSimulation() {
   const { meta, results, filters } = useRuleset()
-  const { filtered, byBanker, byPlayer, updateFilter } = filters
+  const { filtered, sortedFiltered, byBanker, byPlayer, updateFilter } = filters
   const [explorerOpen, setExplorerOpen] = useState(true)
 
   const bestBanker = byBanker.slice(0, 5)
@@ -63,7 +63,10 @@ export function SectionSimulation() {
           <strong className="font-serif">Player win rate</strong> — the share of hands where a
           player beats the banker.{' '}
           <strong className="font-serif">Banker win rate</strong> — the share of hands where the
-          banker beats the player (excluding pushes).
+          banker beats the player.{' '}
+          <strong className="font-serif">Push rate</strong> — the share of tied hands; neither side
+          wins or loses the bet on that hand. Player, banker, and push rates add up to 100% of all
+          hands. Sorting by advantage uses banker edge (units won per hand), not win rate alone.
         </CardContent>
       </Card>
 
@@ -209,7 +212,7 @@ export function SectionSimulation() {
                 </TableRow>
               </TableHeader>
               <TableBody>
-                {filtered.map((r) => {
+                {sortedFiltered.map((r) => {
                   const bankerFavored = r.bankerUnitsPerRoundPerPlayer.mean > 0
                   return (
                     <TableRow key={r.label}>

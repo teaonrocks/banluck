@@ -31,9 +31,6 @@ export function useSimulationFilters(
   const filtered = useMemo(() => {
     return results.filter((r) => {
       const c = r.config
-      const edge = r.bankerUnitsPerRoundPerPlayer.mean
-      if (filters.advantage === 'banker' && edge <= 0) return false
-      if (filters.advantage === 'player' && edge >= 0) return false
       if (filters.fifteenRun && c.fifteenRun !== filters.fifteenRun) return false
       if (filters.minimum && c.minimum !== filters.minimum) return false
       if (filters.players && c.players !== filters.players) return false
@@ -59,6 +56,22 @@ export function useSimulationFilters(
     [filtered],
   )
 
+  const sortedFiltered = useMemo(() => {
+    if (filters.advantage === 'banker') {
+      return [...filtered].sort(
+        (a, b) =>
+          b.bankerUnitsPerRoundPerPlayer.mean - a.bankerUnitsPerRoundPerPlayer.mean,
+      )
+    }
+    if (filters.advantage === 'player') {
+      return [...filtered].sort(
+        (a, b) =>
+          a.bankerUnitsPerRoundPerPlayer.mean - b.bankerUnitsPerRoundPerPlayer.mean,
+      )
+    }
+    return filtered
+  }, [filtered, filters.advantage])
+
   const updateFilter = useCallback(
     <K extends keyof SimulationFilters>(key: K, value: SimulationFilters[K]) => {
       setFilters((prev) => ({ ...prev, [key]: value }))
@@ -69,6 +82,7 @@ export function useSimulationFilters(
   return {
     filters,
     filtered,
+    sortedFiltered,
     byBanker,
     byPlayer,
     applyPreset,
